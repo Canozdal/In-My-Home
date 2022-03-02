@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter1/provider/google_sign_in_provider.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:provider/provider.dart';
 
 var butonrengi = Color(0x791074DE);
 
@@ -199,12 +201,18 @@ class _LoginScreenState extends State<HesapScreen> {
     );
   }
 
-  Widget _buildGoogleBtn() {
-    return Container(
+/*  Google Sign In Button
+    This button invokes a Google Authentication Process.
+ */
+  Widget _buildGoogleBtn() => ChangeNotifierProvider(
+        create: (BuildContext context) => GoogleSignInProvider(),
+      child: Container(
       padding: EdgeInsets.symmetric(vertical: 5.0),
       width: double.infinity,
       child: RaisedButton(
-        onPressed: () => print('Forgot Password Button Pressed'),
+        onPressed: () => { GoogleSignInProvider().googleLogin()
+        , print(GoogleSignInProvider().googleSignIn.currentUser?.email),
+        Navigator.pushNamed(context, '/login')},
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
@@ -231,8 +239,9 @@ class _LoginScreenState extends State<HesapScreen> {
           ],
         ),
       ),
+    )
     );
-  }
+
 
   Widget _buildFacebookBtn() {
     return Container(

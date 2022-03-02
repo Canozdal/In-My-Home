@@ -197,7 +197,8 @@ class _LoginScreenState extends State<LoginScreen> {
               blurRadius: 6.0,
             ),
           ],
-          image: DecorationImage(
+          image:
+          DecorationImage(
             image: logo,
           ),
         ),
