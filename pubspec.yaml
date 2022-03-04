@@ -52,6 +52,9 @@ dependencies:
 
   permission_handler: ^9.1.0
 
+  flutter_plugin_android_lifecycle: ^2.0.5
+
+  flutter_barcode_scanner: ^2.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

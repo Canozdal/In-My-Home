@@ -211,7 +211,7 @@ class _LoginScreenState extends State<HesapScreen> {
       width: double.infinity,
       child: RaisedButton(
         onPressed: () => { GoogleSignInProvider().googleLogin()
-        , print(GoogleSignInProvider().googleSignIn.currentUser?.email),
+        ,
         Navigator.pushNamed(context, '/login')},
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
