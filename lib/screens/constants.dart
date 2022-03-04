@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
 
+var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
+
 final kHintTextStyle = TextStyle(
   color: Colors.white54,
   fontFamily: 'OpenSans',
 );
 
 final kLabelStyle = TextStyle(
-  color: Colors.white,
+  color: yazirengi,
   fontWeight: FontWeight.bold,
   fontFamily: 'OpenSans',
 );
 
 final kBoxDecorationStyle = BoxDecoration(
-  color: Color(0x791074DE),
+  color: butonrengi2,
   borderRadius: BorderRadius.circular(10.0),
   boxShadow: [
     BoxShadow(

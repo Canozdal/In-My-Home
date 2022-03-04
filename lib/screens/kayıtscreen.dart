@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/screens/constants.dart';
 
-var butonrengi = const Color(0x791074DE);
+var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
 
 class KayitScreen extends StatefulWidget {
   @override
@@ -18,7 +21,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Email',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -28,7 +31,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -36,11 +39,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.email,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Email veya kullanıcı adı giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -55,7 +58,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Ad',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -65,7 +68,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -73,11 +76,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.account_circle,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Adınızı giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -92,7 +95,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Soyad',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -102,7 +105,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -110,11 +113,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.account_circle,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Soyadınızı giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -129,7 +132,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Telefon',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -139,7 +142,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -147,11 +150,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.local_phone,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Telefon numaranızı giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -166,7 +169,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Şifre Tekrar',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -176,7 +179,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             obscureText: true,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -184,11 +187,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.lock,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Şifrenizi tekrar giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -203,7 +206,7 @@ class _LoginScreenState extends State<KayitScreen> {
       children: <Widget>[
         Text(
           'Şifre',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -213,7 +216,7 @@ class _LoginScreenState extends State<KayitScreen> {
           child: TextField(
             obscureText: true,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -221,11 +224,11 @@ class _LoginScreenState extends State<KayitScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.lock,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Şifrenizi giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -247,11 +250,11 @@ class _LoginScreenState extends State<KayitScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Kayıt Ol',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -265,6 +268,23 @@ class _LoginScreenState extends State<KayitScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: butonrengi2,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(50),
+          ),),
+        toolbarHeight: 80.0,
+        title: Text(
+          '       In My Home',
+          style: TextStyle(
+            color: yazirengi,
+            fontFamily: 'OpenSans',
+            fontSize: 30.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: GestureDetector(
@@ -279,11 +299,11 @@ class _LoginScreenState extends State<KayitScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Colors.blueGrey,
-                      Colors.black45,
-                      Colors.grey,
-                      Colors.black45,
-                      Colors.blueGrey,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
                     ],
                     stops: [0.1, 0.3, 0.5, 0.7, 0.9],
                   ),
@@ -295,21 +315,12 @@ class _LoginScreenState extends State<KayitScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 30.0,
-                    vertical: 60.0,
+                    vertical: 20.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(
-                        'In My Home',
-                        style: TextStyle(
-                          color: Colors.black87,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      SizedBox(height: 30.0),
+                      SizedBox(height: 10.0),
                       _buildIsimTF(),
                       SizedBox(height: 10.0),
                       _buildSoyisimTF(),

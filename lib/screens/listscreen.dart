@@ -3,7 +3,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter1/screens/constants.dart';
 
-var butonrengi = Color(0xBE6296CE);
+var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
 
 class ListScreen extends StatefulWidget {
   @override
@@ -25,7 +28,7 @@ class _LoginScreenState extends State<ListScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -33,11 +36,11 @@ class _LoginScreenState extends State<ListScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.search,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Arama',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -54,11 +57,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: Color(0x791074DE),
+        color: butonrengi2,
         child: Text(
           'Ürün Adı             Giriş Tarihi             Kalan Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -76,11 +79,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Domates           25.12.2021             6 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -98,11 +101,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Dondurma             28.12.2021             39 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -120,11 +123,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Portakal             25.12.2021             6 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -142,11 +145,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Yumurta             28.12.2021             13 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -164,11 +167,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Ekmek             29.12.2021             4 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -186,11 +189,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Peynir             28.12.2021             14 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -208,11 +211,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Sucuk             21.12.2021             8 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -230,11 +233,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Tereyağ             23.12.2021             15 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -252,11 +255,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Sosis             23.12.2021             9 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -274,11 +277,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Çikolata             28.12.2021             29 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -296,11 +299,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Bisküvi             28.12.2021             159 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -318,11 +321,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Patates             25.12.2021             6 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -340,11 +343,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Tavuk             27.12.2021             5 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -362,11 +365,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Ayran             29.12.2021             15 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -384,11 +387,11 @@ class _LoginScreenState extends State<ListScreen> {
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Süt             29.12.2021             7 Gün',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             fontSize: 15.0,
             fontWeight: FontWeight.bold,
             fontFamily: 'OpenSans',
@@ -401,6 +404,23 @@ class _LoginScreenState extends State<ListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: butonrengi2,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(50),
+          ),),
+        toolbarHeight: 80.0,
+        title: Text(
+              '             Gıda',
+              style: TextStyle(
+                color: yazirengi,
+                fontFamily: 'OpenSans',
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+        ),
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: GestureDetector(
@@ -415,11 +435,11 @@ class _LoginScreenState extends State<ListScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Colors.blueGrey,
-                      Colors.black45,
-                      Colors.grey,
-                      Colors.black45,
-                      Colors.blueGrey,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
                     ],
                     stops: [0.1, 0.3, 0.5, 0.7, 0.9],
                   ),
@@ -431,21 +451,11 @@ class _LoginScreenState extends State<ListScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 5.0,
-                    vertical: 60.0,
+                    vertical: 20.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(
-                        'Gıda',
-                        style: TextStyle(
-                          color: Colors.black87,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      SizedBox(height: 30.0),
                       _buildaraTF(),
                       _buildheadTF(),
                       _buildurun1TF(),

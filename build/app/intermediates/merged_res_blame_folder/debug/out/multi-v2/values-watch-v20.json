@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CAN\\StudioProjects\\flutter1\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\ae11625b09b0bef832227783831cd9a3\\jetified-play-services-auth-20.0.1\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\ae11625b09b0bef832227783831cd9a3\\jetified-play-services-auth-20.0.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\5077bee5030e418861dabe4b68f45a28\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\773bfdda516b39823fc1d5a125b2b08f\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

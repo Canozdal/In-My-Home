@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CAN\\StudioProjects\\flutter1\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\57fd8e1d7bc2c4056398e541a1301e41\\jetified-play-services-basement-18.0.0\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "199",
-                        "endColumns": "140",
-                        "endOffsets": "339"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1067",
-                        "endColumns": "144",
-                        "endOffsets": "1207"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\d3603b3a95cc9ba07bc815eaacb2b6ea\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\d3603b3a95cc9ba07bc815eaacb2b6ea\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\eb8d9937f7d1dda95540b9e161ea9375\\core-1.6.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\57fd8e1d7bc2c4056398e541a1301e41\\jetified-play-services-basement-18.0.0\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "140",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1067",
+                        "endColumns": "144",
+                        "endOffsets": "1207"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\eb8d9937f7d1dda95540b9e161ea9375\\core-1.6.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -57,27 +57,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\CAN\\StudioProjects\\flutter1\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\57fd8e1d7bc2c4056398e541a1301e41\\jetified-play-services-basement-18.0.0\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "199",
-                        "endColumns": "140",
-                        "endOffsets": "339"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1067",
-                        "endColumns": "144",
-                        "endOffsets": "1207"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\d3603b3a95cc9ba07bc815eaacb2b6ea\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\d3603b3a95cc9ba07bc815eaacb2b6ea\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CAN\\.gradle\\caches\\transforms-2\\files-2.1\\eb8d9937f7d1dda95540b9e161ea9375\\core-1.6.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\57fd8e1d7bc2c4056398e541a1301e41\\jetified-play-services-basement-18.0.0\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "140",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1067",
+                        "endColumns": "144",
+                        "endOffsets": "1207"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\eb8d9937f7d1dda95540b9e161ea9375\\core-1.6.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

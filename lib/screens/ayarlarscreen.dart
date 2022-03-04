@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
 
 class AyarlarScreen extends StatefulWidget {
   @override
@@ -22,11 +25,11 @@ class _LoginScreenState extends State<AyarlarScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Hesap',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -48,11 +51,11 @@ class _LoginScreenState extends State<AyarlarScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Dil',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -74,11 +77,11 @@ class _LoginScreenState extends State<AyarlarScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Güvenlik',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -102,11 +105,11 @@ class _LoginScreenState extends State<AyarlarScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Oturumu Kapat',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -161,6 +164,38 @@ class _LoginScreenState extends State<AyarlarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: butonrengi2,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(50),
+          ),),
+        toolbarHeight: 80.0,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Container(
+              padding: const EdgeInsets.all(8.0), child: Text(
+              'In My Home',
+              style: TextStyle(
+                color: yazirengi,
+                fontFamily: 'OpenSans',
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(30.0),
+              child: Image.asset(
+                'assets/logos/foto.jpg',
+                width: 60.0,
+                height: 60.0,
+                fit: BoxFit.fill,
+              ),
+            ),
+          ],
+        ),
+      ),
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: GestureDetector(
@@ -175,11 +210,11 @@ class _LoginScreenState extends State<AyarlarScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Colors.blueGrey,
-                      Colors.black45,
-                      Colors.grey,
-                      Colors.black45,
-                      Colors.blueGrey,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
                     ],
                     stops: [0.1, 0.3, 0.5, 0.7, 0.9],
                   ),
@@ -191,32 +226,7 @@ class _LoginScreenState extends State<AyarlarScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 30.0,
-                    vertical: 40.0,
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Text(
-                        'In My Home',
-                        style: TextStyle(
-                          color: Colors.black87,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      _buildSocialBtnRow(),
-                    ],
-                  ),
-                ),
-              ),
-              Container(
-                height: double.infinity,
-                child: SingleChildScrollView(
-                  physics: AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 30.0,
-                    vertical: 150.0,
+                    vertical: 20.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -5,6 +5,9 @@ import 'package:flutter1/screens/constants.dart';
 import 'package:provider/provider.dart';
 
 var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
 
 class HesapScreen extends StatefulWidget {
   @override
@@ -20,7 +23,7 @@ class _LoginScreenState extends State<HesapScreen> {
       children: <Widget>[
         Text(
           'Email',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -30,7 +33,7 @@ class _LoginScreenState extends State<HesapScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -38,11 +41,11 @@ class _LoginScreenState extends State<HesapScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.email,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Email veya kullanıcı adı giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -57,7 +60,7 @@ class _LoginScreenState extends State<HesapScreen> {
       children: <Widget>[
         Text(
           'Şifre',
-          style: TextStyle(color: Colors.black87),
+          style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
         Container(
@@ -67,7 +70,7 @@ class _LoginScreenState extends State<HesapScreen> {
           child: TextField(
             obscureText: true,
             style: TextStyle(
-              color: Colors.black87,
+              color: yazirengi,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -75,11 +78,11 @@ class _LoginScreenState extends State<HesapScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.lock,
-                color: Colors.black87,
+                color: yazirengi,
               ),
               hintText: 'Şifrenizi giriniz',
               hintStyle: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
               ),
             ),
           ),
@@ -97,7 +100,7 @@ class _LoginScreenState extends State<HesapScreen> {
         child: Text(
           'Şifrenizi mi unuttunuz?',
           style: TextStyle(
-            color: Colors.black87,
+            color: butonrengi2,
           ),
         ),
       ),
@@ -113,8 +116,8 @@ class _LoginScreenState extends State<HesapScreen> {
             data: ThemeData(unselectedWidgetColor: Colors.black87),
             child: Checkbox(
               value: _rememberMe,
-              checkColor: Colors.black,
-              activeColor: butonrengi,
+              checkColor: butonrengi2,
+              activeColor: butonrengi2,
               onChanged: (value) {
                 setState(() {
                   _rememberMe = value!;
@@ -125,7 +128,7 @@ class _LoginScreenState extends State<HesapScreen> {
           Text(
             'Beni Hatırla',
             style: TextStyle(
-              color: Colors.black87,
+              color: butonrengi2,
             ),
           ),
         ],
@@ -146,11 +149,11 @@ class _LoginScreenState extends State<HesapScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Text(
           'Giriş Yap',
           style: TextStyle(
-            color: Colors.black87,
+            color: yazirengi,
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -174,14 +177,14 @@ class _LoginScreenState extends State<HesapScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: RichText(
           text: TextSpan(
             children: [
               TextSpan(
                 text: 'Hesabınız yok mu? ',
                 style: TextStyle(
-                  color: Colors.black87,
+                  color: yazirengi,
                   fontSize: 18.0,
                   fontWeight: FontWeight.w400,
                 ),
@@ -189,7 +192,7 @@ class _LoginScreenState extends State<HesapScreen> {
               TextSpan(
                 text: 'Kayıt Ol',
                 style: TextStyle(
-                  color: Colors.black87,
+                  color: yazirengi,
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
                 ),
@@ -217,7 +220,7 @@ class _LoginScreenState extends State<HesapScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -225,7 +228,7 @@ class _LoginScreenState extends State<HesapScreen> {
             Text(
               'Google ile Kayıt Ol',
               style: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
                 letterSpacing: 1.5,
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -253,7 +256,7 @@ class _LoginScreenState extends State<HesapScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: butonrengi,
+        color: butonrengi2,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -261,7 +264,7 @@ class _LoginScreenState extends State<HesapScreen> {
             Text(
               'Facebook ile Kayıt Ol',
               style: TextStyle(
-                color: Colors.black87,
+                color: yazirengi,
                 letterSpacing: 1.5,
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -281,6 +284,23 @@ class _LoginScreenState extends State<HesapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: butonrengi2,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(50),
+          ),),
+        toolbarHeight: 80.0,
+        title: Text(
+          '       In My Home',
+          style: TextStyle(
+            color: yazirengi,
+            fontFamily: 'OpenSans',
+            fontSize: 30.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: GestureDetector(
@@ -295,11 +315,11 @@ class _LoginScreenState extends State<HesapScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Colors.blueGrey,
-                      Colors.black45,
-                      Colors.grey,
-                      Colors.black45,
-                      Colors.blueGrey,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
+                      Colors.white10,
                     ],
                     stops: [0.1, 0.3, 0.5, 0.7, 0.9],
                   ),
@@ -311,20 +331,11 @@ class _LoginScreenState extends State<HesapScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 30.0,
-                    vertical: 40.0,
+                    vertical: 20.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(
-                        'In My Home',
-                        style: TextStyle(
-                          color: Colors.black87,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
 
                       SizedBox(height: 30.0),
                       _buildEmailTF(),
