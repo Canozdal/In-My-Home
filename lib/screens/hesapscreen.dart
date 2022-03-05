@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/provider/google_sign_in_provider.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/service/user_services.dart';
+import 'package:flutter1/service/validator.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 var butonrengi = Color(0x791074DE);
 
@@ -13,6 +16,15 @@ class HesapScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<HesapScreen> {
   bool _rememberMe = false;
+
+  final _formKey = GlobalKey<FormState>();
+  final _emailTextController = TextEditingController();
+  final _passwordTextController = TextEditingController();
+
+  final _focusEmail = FocusNode();
+  final _focusPassword = FocusNode();
+
+  bool _isProcessing = false;
 
   Widget _buildEmailTF() {
     return Column(
@@ -27,7 +39,10 @@ class _LoginScreenState extends State<HesapScreen> {
           alignment: Alignment.centerLeft,
           decoration: kBoxDecorationStyle,
           height: 60.0,
-          child: TextField(
+          child: TextFormField(
+            controller: _emailTextController,
+            focusNode: _focusEmail,
+            validator: (value) => Validator.validateEmail(email: value!),
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
               color: Colors.black87,
@@ -64,7 +79,11 @@ class _LoginScreenState extends State<HesapScreen> {
           alignment: Alignment.centerLeft,
           decoration: kBoxDecorationStyle,
           height: 60.0,
-          child: TextField(
+          child: TextFormField(
+            controller: _passwordTextController,
+            focusNode: _focusPassword,
+            validator: (value) => Validator.validatePassword(
+                password: value!),
             obscureText: true,
             style: TextStyle(
               color: Colors.black87,
@@ -139,8 +158,17 @@ class _LoginScreenState extends State<HesapScreen> {
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () {
-          Navigator.pushNamed(context, '/login');
+        onPressed: () async{
+          if(_formKey.currentState!.validate()) {
+            User? user = await UserService.signInUsingEmailPassword(
+                email: _emailTextController.text,
+                password: _passwordTextController.text,
+                context: context);
+
+            if(user != null){
+              Navigator.pushNamed(context, '/login');
+            }
+          }
         },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
@@ -238,6 +266,8 @@ class _LoginScreenState extends State<HesapScreen> {
             ),
           ],
         ),
+
+
       ),
     )
     );
@@ -285,68 +315,71 @@ class _LoginScreenState extends State<HesapScreen> {
         value: SystemUiOverlayStyle.light,
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: Stack(
-            children: <Widget>[
-              Container(
-                height: double.infinity,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.blueGrey,
-                      Colors.black45,
-                      Colors.grey,
-                      Colors.black45,
-                      Colors.blueGrey,
-                    ],
-                    stops: [0.1, 0.3, 0.5, 0.7, 0.9],
+          child: Form(
+            key: _formKey,
+            child: Stack(
+              children: <Widget>[
+                Container(
+                  height: double.infinity,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        Colors.blueGrey,
+                        Colors.black45,
+                        Colors.grey,
+                        Colors.black45,
+                        Colors.blueGrey,
+                      ],
+                      stops: [0.1, 0.3, 0.5, 0.7, 0.9],
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                height: double.infinity,
-                child: SingleChildScrollView(
-                  physics: AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 30.0,
-                    vertical: 40.0,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(
-                        'In My Home',
-                        style: TextStyle(
-                          color: Colors.black87,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
+                Container(
+                  height: double.infinity,
+                  child: SingleChildScrollView(
+                    physics: AlwaysScrollableScrollPhysics(),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 30.0,
+                      vertical: 40.0,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text(
+                          'In My Home',
+                          style: TextStyle(
+                            color: Colors.black87,
+                            fontFamily: 'OpenSans',
+                            fontSize: 30.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
 
-                      SizedBox(height: 30.0),
-                      _buildEmailTF(),
-                      SizedBox(
-                        height: 30.0,
-                      ),
+                        SizedBox(height: 30.0),
+                        _buildEmailTF(),
+                        SizedBox(
+                          height: 30.0,
+                        ),
 
-                      _buildPasswordTF(),
-                      _buildForgotPasswordBtn(),
-                      _buildRememberMeCheckbox(),
-                      _buildLoginBtn(),
-                      _buildSignupBtn(),
-                      _buildGoogleBtn(),
-                      _buildFacebookBtn()
-                      //_buildSignInWithText(),
-                      //_buildSocialBtnRow2()
-                    ],
+                        _buildPasswordTF(),
+                        _buildForgotPasswordBtn(),
+                        _buildRememberMeCheckbox(),
+                        _buildLoginBtn(),
+                        _buildSignupBtn(),
+                        _buildGoogleBtn(),
+                        _buildFacebookBtn()
+                        //_buildSignInWithText(),
+                        //_buildSocialBtnRow2()
+                      ],
+                    ),
                   ),
-                ),
-              )
-            ],
-          ),
+                )
+              ],
+            ),
+          )
         ),
       ),
     );

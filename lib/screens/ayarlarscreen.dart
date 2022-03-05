@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter1/provider/google_sign_in_provider.dart';
+import 'package:flutter1/screens/profile_page.dart';
+import 'package:provider/provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import '../state_manager.dart';
 
 var butonrengi = Color(0x791074DE);
 
 class AyarlarScreen extends StatefulWidget {
+
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -17,7 +25,7 @@ class _LoginScreenState extends State<AyarlarScreen> {
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () => print('Hesap Button Pressed'),
+        onPressed: () => Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => ProfilePage())),
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
@@ -89,14 +97,16 @@ class _LoginScreenState extends State<AyarlarScreen> {
     );
   }
 
-  Widget _buildOturumBtn() {
-    return Container(
+  Widget _buildOturumBtn() => ChangeNotifierProvider(
+      create: (BuildContext context) => GoogleSignInProvider(),
+    child: Container(
       padding: EdgeInsets.symmetric(vertical: 10.0),
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
         onPressed: () {
           Navigator.pushNamed(context, '/oturum');
+
         },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
@@ -114,8 +124,8 @@ class _LoginScreenState extends State<AyarlarScreen> {
           ),
         ),
       ),
-    );
-  }
+    )
+  );
 
   Widget _buildSocialBtn(Function onTap, AssetImage logo) {
     return GestureDetector(
