@@ -20,7 +20,7 @@ class _LoginScreenState extends State<AyarlarScreen> {
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () => print('Hesap Button Pressed'),
+        onPressed: () => Navigator.of(context).pushNamed('/profil'),
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),

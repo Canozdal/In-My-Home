@@ -1,8 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/provider/google_sign_in_provider.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/service/user_services.dart';
 import 'package:provider/provider.dart';
+
+import '../service/validator2.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
@@ -16,6 +20,18 @@ class HesapScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<HesapScreen> {
   bool _rememberMe = false;
+  final _formEmailKey = GlobalKey<FormState>();
+  final _formPasswordKey = GlobalKey<FormState>();
+
+  final _emailTextController = TextEditingController();
+  final _passwordTextController = TextEditingController();
+
+  final _focusEmail = FocusNode();
+  final _focusPassword = FocusNode();
+
+  bool _isProcessing = false;
+
+  User? user = FirebaseAuth.instance.currentUser;
 
   Widget _buildEmailTF() {
     return Column(
@@ -26,26 +42,34 @@ class _LoginScreenState extends State<HesapScreen> {
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
-        Container(
-          alignment: Alignment.centerLeft,
-          decoration: kBoxDecorationStyle,
-          height: 60.0,
-          child: TextField(
-            keyboardType: TextInputType.emailAddress,
-            style: TextStyle(
-              color: yazirengi,
-              fontFamily: 'OpenSans',
-            ),
-            decoration: InputDecoration(
-              border: InputBorder.none,
-              contentPadding: EdgeInsets.only(top: 14.0),
-              prefixIcon: Icon(
-                Icons.email,
-                color: yazirengi,
+        Form(
+          key: _formEmailKey,
+          child: Container(
+            alignment: Alignment.centerLeft,
+            decoration: kBoxDecorationStyle,
+            height: 60.0,
+            child: TextFormField(
+              controller: _emailTextController,
+              focusNode: _focusEmail,
+              validator: (value) => Validator.validateEmail(
+                email: value,
               ),
-              hintText: 'Email veya kullanıcı adı giriniz',
-              hintStyle: TextStyle(
+              keyboardType: TextInputType.emailAddress,
+              style: TextStyle(
                 color: yazirengi,
+                fontFamily: 'OpenSans',
+              ),
+              decoration: InputDecoration(
+                border: InputBorder.none,
+                contentPadding: EdgeInsets.only(top: 14.0),
+                prefixIcon: Icon(
+                  Icons.email,
+                  color: yazirengi,
+                ),
+                hintText: 'Email veya kullanıcı adı giriniz',
+                hintStyle: TextStyle(
+                  color: yazirengi,
+                ),
               ),
             ),
           ),
@@ -63,30 +87,39 @@ class _LoginScreenState extends State<HesapScreen> {
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
-        Container(
-          alignment: Alignment.centerLeft,
-          decoration: kBoxDecorationStyle,
-          height: 60.0,
-          child: TextField(
-            obscureText: true,
-            style: TextStyle(
-              color: yazirengi,
-              fontFamily: 'OpenSans',
-            ),
-            decoration: InputDecoration(
-              border: InputBorder.none,
-              contentPadding: EdgeInsets.only(top: 14.0),
-              prefixIcon: Icon(
-                Icons.lock,
+        Form(
+          key: _formPasswordKey,
+          child:
+          Container(
+            alignment: Alignment.centerLeft,
+            decoration: kBoxDecorationStyle,
+            height: 60.0,
+            child: TextFormField(
+              controller: _passwordTextController,
+              focusNode: _focusPassword,
+              validator: (value) => Validator.validatePassword(
+                  password: value),
+              obscureText: true,
+              style: TextStyle(
                 color: yazirengi,
+                fontFamily: 'OpenSans',
               ),
-              hintText: 'Şifrenizi giriniz',
-              hintStyle: TextStyle(
-                color: yazirengi,
+              decoration: InputDecoration(
+                border: InputBorder.none,
+                contentPadding: EdgeInsets.only(top: 14.0),
+                prefixIcon: Icon(
+                  Icons.lock,
+                  color: yazirengi,
+                ),
+                hintText: 'Şifrenizi giriniz',
+                hintStyle: TextStyle(
+                  color: yazirengi,
+                ),
               ),
             ),
           ),
         ),
+
       ],
     );
   }
@@ -137,12 +170,29 @@ class _LoginScreenState extends State<HesapScreen> {
   }
 
   Widget _buildLoginBtn() {
-    return Container(
+    return _isProcessing? CircularProgressIndicator() : Container(
       padding: EdgeInsets.symmetric(vertical: 10.0),
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () {
+        onPressed: () async{
+          _focusEmail.unfocus();
+          _focusPassword.unfocus();
+
+          if(_formEmailKey.currentState!.validate() || _formPasswordKey.currentState!.validate()){
+              setState(() {
+                _isProcessing = true;
+              });
+          }
+
+          User? user = await UserService.signInUsingEmailPassword(
+              email: _emailTextController.text,
+              password: _passwordTextController.text);
+
+          setState(() {
+            _isProcessing = false;
+          });
+
           Navigator.pushNamed(context, '/login');
         },
         padding: EdgeInsets.all(15.0),
