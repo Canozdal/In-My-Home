@@ -1,43 +1,67 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter1/model/user.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 
 class UserService extends ChangeNotifier {
-  String? _name;
-  String? _email;
 
-  final String collectionName = 'Users';
 
-  String get name => _name!;
-
-  String get email => _email!;
-
-  Future<void> createUser({required String name}) async {
-    final docUser = FirebaseFirestore.instance.collection(collectionName).doc();
-
-    final json = {
-      'name': this.name,
-      'email': email,
-      'id': docUser.id,
-    };
-
-    await docUser.set(json);
+  /**
+   * Firebase Authentication Registration
+   * @param : email <String>, password <String>
+   * @return : null
+   * !!! : Pop up error messages will be implemented!
+   */
+  static Future<void> register(String email, String password) async{
+      try{
+        UserCredential userCredential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
+            email: email,
+            password: password);
+      } on FirebaseAuthException catch (e) {
+        if(e.code == 'weak-password'){
+          print('The password provided is too weak.');
+        }
+        if(e.code == 'email-already-in-use'){
+          print('The account already exists for that email.');
+        }
+      } catch (e){
+        print(e);
+      }
   }
 
-  //
-  Stream<List<User>> readUsers() => FirebaseFirestore.instance
-      .collection(collectionName)
-      .snapshots()
-      .map((snapshot) =>
-          snapshot.docs.map((doc) => User.fromJson(doc.data())).toList());
+  /**
+   * Firebase Authentication Sign In
+   * @param : email <String>, password <String>
+   * @return : null
+   * !!! : Pop up error messages will be implemented!
+   */
+  static Future<void> signIn(String email, String password) async{
+    try {
+        UserCredential userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+            email: email,
+            password: password);
+    } on FirebaseAuthException catch (e){
+      if(e.code == 'user-not-found'){
 
-  Future<User?> readUser(String id) async {
-    final docUser =
-        FirebaseFirestore.instance.collection(collectionName).doc(id);
-    final snapshot = await docUser.get();
-
-    if (snapshot.exists) {
-      return User.fromJson(snapshot.data()!);
+      } else if(e.code == 'wrong-password'){
+        print('Wrong password provided for that user');
+      }
     }
   }
+
+/**
+ * Firebase Email Verification
+ * @param : null
+ * @return : null
+ * !!! : Will be implemented later
+ */
+  static Future<void> verifyEmail() async{
+    User? user = FirebaseAuth.instance.currentUser;
+
+    if(user != null && !user.emailVerified){
+      await user.sendEmailVerification();
+    }
+  }
+
 }
