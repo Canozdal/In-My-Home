@@ -3,6 +3,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+/**
+ * !!! : THIS CLASS WILL BE LATER IMPLEMENTED WITH STATIC METHODS
+ */
 class AddUser{
 
   final String fullName;

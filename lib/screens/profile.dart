@@ -119,7 +119,12 @@ class _ProfilePageState extends State<ProfilePage> {
                 onPressed: (){
 
                   _addUser.addUser();
+
+                  setState(() {
+                    _isRegisteredToDB = true;
+                  });
                 },
+
                 child: Text('Add to Database')),
           ],
         ),

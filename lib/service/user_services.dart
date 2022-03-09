@@ -6,7 +6,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class UserService extends ChangeNotifier {
 
-  // For registering a new user
+
+  /**
+   * Register using email and password
+   * @param : name <String> , email <String>, password <String>
+   * @return : Future <User>
+   */
   static Future<User?> registerUsingEmailPassword({
     required String name,
     required String email,
@@ -22,7 +27,7 @@ class UserService extends ChangeNotifier {
       );
 
       user = userCredential.user;
-      await user!.updateProfile(displayName: name);
+      await user!.updateDisplayName(name);
       await user.reload();
       user = auth.currentUser;
     } on FirebaseAuthException catch (e) {
@@ -38,7 +43,11 @@ class UserService extends ChangeNotifier {
     return user;
   }
 
-  // For signing in an user (have already registered)
+  /**
+   * Sign in using email and password
+   * @param : email <String>, password <String>
+   * @return : Future <User>
+   */
   static Future<User?> signInUsingEmailPassword({
     required String email,
     required String password,
@@ -63,6 +72,11 @@ class UserService extends ChangeNotifier {
     return user;
   }
 
+  /**
+   * Refreshes user object
+   * @param : user <User>
+   * @return : Future <User>
+   */
   static Future<User?> refreshUser(User user) async {
     FirebaseAuth auth = FirebaseAuth.instance;
 
