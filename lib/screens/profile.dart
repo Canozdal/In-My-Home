@@ -119,6 +119,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 onPressed: (){
 
                   _addUser.addUser();
+                  _addUser.addProduct();
 
                   setState(() {
                     _isRegisteredToDB = true;

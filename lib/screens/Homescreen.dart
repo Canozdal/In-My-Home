@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/service/user_services.dart';
 
 var butonrengi = Color(0x791074DE);
 
@@ -199,13 +200,13 @@ class _LoginScreenState extends State<LoginScreen2> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           _buildSocialBtn(
-            () => print('Login with Facebook'),
+            () => UserService.signInWithFacebook(),
             AssetImage(
               'assets/logos/facebook.jpg',
             ),
           ),
           _buildSocialBtn(
-            () => print('Login with Google'),
+            () => UserService.signInWithGoogle(),
             AssetImage(
               'assets/logos/google.jpg',
             ),

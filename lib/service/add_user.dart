@@ -15,6 +15,8 @@ class AddUser{
 
   CollectionReference users = FirebaseFirestore.instance.collection('Users');
 
+  CollectionReference products = FirebaseFirestore.instance.collection('Products');
+
   Future<void> addUser(){
 
     return users.add({
@@ -22,6 +24,15 @@ class AddUser{
       'email' : email,
     }).then ((value) => print('User added.'))
     .catchError((error) => print('Failed to Add User: $error'));
+  }
+
+  Future<void> addProduct(){
+
+    return products.add({
+      'name' : 'kama sutra playing cards',
+      'barcode' : '2000737053704'
+    }).then((value) => print('Product added'))
+        .catchError((error) => print('Failed to Add Product: $error'));
   }
   void printDetails(){
     print('Name : ${this.fullName}, Email : ${this.email}');
