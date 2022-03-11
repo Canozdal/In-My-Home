@@ -1,3 +1,6 @@
+import 'package:flutter1/model/inventory.dart';
+import 'package:flutter1/model/shopping_list.dart';
+
 class Person{
 
 String _name;
@@ -7,6 +10,8 @@ String _email;
 
 late String _phone_number;
 
+late Inventory inv;
+late ShoppingList sl;
 
 Person(this._name,this._email);
 
