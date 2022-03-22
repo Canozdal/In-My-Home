@@ -6,12 +6,26 @@ List product_calistir() {
   var product4 = Product(productname: "pea",shelfLife: 9);
   var product5 = Product(productname: "pea",shelfLife: 5);
   var product6 = Product(productname: "apple",shelfLife: 5);
+  var product7 = Product(productname: "armut",shelfLife: 5);
+  var product8 = Product(productname: "armut",shelfLife: 5);
+  var product9 = Product(productname: "armut",shelfLife: 5);
+  var product10 = Product(productname: "armut",shelfLife: 5);
+  var product11 = Product(productname: "armut",shelfLife: 5);
+  var product12 = Product(productname: "armut",shelfLife: 5);
+  var product13 = Product(productname: "armut",shelfLife: 5);
   users_product = product1.listupdater(users_product) ;
   users_product = product2.listupdater(users_product) ;
   users_product = product3.listupdater(users_product) ;
   users_product = product4.listupdater(users_product) ;
   users_product = product5.listupdater(users_product) ;
   users_product = product6.listupdater(users_product) ;
+  users_product = product7.listupdater(users_product) ;
+  users_product = product8.listupdater(users_product) ;
+  users_product = product9.listupdater(users_product) ;
+  users_product = product10.listupdater(users_product) ;
+  users_product = product11.listupdater(users_product) ;
+  users_product = product12.listupdater(users_product) ;
+  users_product = product13.listupdater(users_product) ;
   product2.listremover(users_product);
   users_product = product2.listupdater(users_product) ;
   return users_product;
@@ -22,12 +36,15 @@ class Product{
   String productname;
   int shelfLife;
   int id = 0;
-  DateTime expirationDate = DateTime.now();
+  DateTime _exp = DateTime.now();
+  String expirationDate ="a";
+  String enterance="a";
+
 
   List listupdater(List updatedList){
+    enterance = "${_exp.day}-${_exp.month}-${_exp.year}";
     this.id = 1;
     int check = 0;
-    DateTime exp = this.expirationDate;
     if (updatedList.length > 0) {
       while (check == 0){
         check = 1;
@@ -41,12 +58,13 @@ class Product{
         }
       }
     }
-    this.expirationDate = exp.add(Duration(days: this.shelfLife, hours: 0, minutes: 0));
+    this._exp = _exp.add(Duration(days: this.shelfLife, hours: 0, minutes: 0));
+    expirationDate = "${_exp.day}-${_exp.month}-${_exp.year}";
     updatedList.add(this);
     return updatedList;
   }
   void listremover(List updatedList){
     updatedList.remove(this);
-    // print('removed => ${this.productname}');
+
   }
 }

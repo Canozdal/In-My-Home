@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/screens/constants.dart';
 
@@ -218,7 +219,7 @@ class _LoginScreenState extends State<LoginScreen> {
           _buildSocialBtn(
             () => print('Login with Google'),
             AssetImage(
-              'assets/logos/foto.jpg',
+              'assets/logos/home.png',
             ),
           ),
         ],

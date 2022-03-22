@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.co.flutter1"
+3    package="com.example.inmyhome"
 4    android:versionCode="2"
 5    android:versionName="1.0.0" >
 6
@@ -12,25 +12,25 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:6:5-67
-14-->C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:6:5-67
+14-->C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-15-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+15-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
-16-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+16-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
 17    <uses-permission android:name="android.permission.CAMERA" />
-17-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
-17-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+17-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+17-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 18
 19    <uses-feature android:name="android.hardware.camera" />
-19-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
-19-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
+19-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
+19-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
 20
 21    <uses-permission android:name="android.permission.FLASHLIGHT" />
-21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
-21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
+21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
+21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
 22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 22-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:5-79
 22-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:22-76
@@ -46,11 +46,11 @@
 29        android:icon="@mipmap/ic_launcher"
 30        android:label="flutter1"
 31        android:largeHeap="true"
-31-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+31-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
 32        android:supportsRtl="true"
 32-->[com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:18-44
 33        android:theme="@style/Theme.AppCompat.NoActionBar" >
-33-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
+33-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
 34        <activity
 35            android:name="com.example.flutter1.MainActivity"
 36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -85,43 +85,43 @@
 65            android:value="2" />
 66
 67        <service
-67-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
+67-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
 68            android:name="com.google.firebase.components.ComponentDiscoveryService"
-68-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
+68-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
 69            android:directBootAware="true"
 69-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 70            android:exported="false" >
 70-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:14:13-37
 71            <meta-data
-71-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+71-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
 72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
-72-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
+72-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
 73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+73-->[:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
 74            <meta-data
-74-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+74-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-75-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+75-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+76-->[:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 77            <meta-data
-77-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+77-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-78-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+78-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+79-->[:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 80            <meta-data
-80-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+80-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-81-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+81-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+82-->[:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 83            <meta-data
-83-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+83-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-84-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+84-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+85-->[:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 86            <meta-data
 86-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:15:13-17:85
 87                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
@@ -167,26 +167,26 @@
 107        </service>
 108
 109        <provider
-109-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+109-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
 110            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-110-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
-111            android:authorities="com.co.flutter1.flutter.image_provider"
-111-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+110-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+111            android:authorities="com.example.inmyhome.flutter.image_provider"
+111-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
 112            android:exported="false"
-112-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+112-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
 113            android:grantUriPermissions="true" >
-113-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+113-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
 114            <meta-data
-114-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+114-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
 115                android:name="android.support.FILE_PROVIDER_PATHS"
-115-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+115-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
 116                android:resource="@xml/flutter_image_picker_file_paths" />
-116-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+116-->[:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
 117        </provider>
 118
 119        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
-119-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
-119-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
+119-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
+119-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
 120
 121        <uses-library
 121-->[androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
@@ -296,7 +296,7 @@
 176-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 177            android:name="com.google.firebase.provider.FirebaseInitProvider"
 177-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-178            android:authorities="com.co.flutter1.firebaseinitprovider"
+178            android:authorities="com.example.inmyhome.firebaseinitprovider"
 178-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 179            android:directBootAware="true"
 179-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
@@ -337,7 +337,7 @@
 196
 197                <data
 197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-198                    android:host="cct.com.co.flutter1"
+198                    android:host="cct.com.example.inmyhome"
 198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 199                    android:scheme="fbconnect" />
 199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
@@ -356,7 +356,7 @@
 211-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:41:9-44:40
 212            android:name="com.facebook.internal.FacebookInitProvider"
 212-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:42:13-70
-213            android:authorities="com.co.flutter1.FacebookInitProvider"
+213            android:authorities="com.example.inmyhome.FacebookInitProvider"
 213-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:43:13-72
 214            android:exported="false" />
 214-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:44:13-37

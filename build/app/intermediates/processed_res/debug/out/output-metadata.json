@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.co.flutter1",
+  "applicationId": "com.example.inmyhome",
   "variantName": "processDebugResources",
   "elements": [
     {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.co.flutter1"
+    package="com.example.inmyhome"
     android:versionCode="2"
     android:versionName="1.0.0" >
 
@@ -108,7 +108,7 @@
 
         <provider
             android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-            android:authorities="com.co.flutter1.flutter.image_provider"
+            android:authorities="com.example.inmyhome.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -175,7 +175,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.co.flutter1.firebaseinitprovider"
+            android:authorities="com.example.inmyhome.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -195,7 +195,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cct.com.co.flutter1"
+                    android:host="cct.com.example.inmyhome"
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
@@ -210,7 +210,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.co.flutter1.FacebookInitProvider"
+            android:authorities="com.example.inmyhome.FacebookInitProvider"
             android:exported="false" />
 
         <receiver

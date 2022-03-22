@@ -37,6 +37,7 @@ class _LoginScreenState extends State<ListScreen> {
         Container(
           alignment: Alignment.centerLeft,
           decoration: kBoxDecorationStyle,
+          width: 380,
           height: 60.0,
           child: TextField(
             keyboardType: TextInputType.emailAddress,
@@ -62,17 +63,53 @@ class _LoginScreenState extends State<ListScreen> {
     );
   }
 
+  Widget secondarystackBehindDismiss() {
+    return Container(
+      color: Colors.red,
+      child: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Icon(Icons.delete, color: Colors.white),
+            Text('Move to trash', style: TextStyle(color: Colors.white)),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget stackBehindDismiss() {
+    return Container(
+      color: Colors.blue,
+      child: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Row(
+          children: [
+            Icon(Icons.favorite, color: Colors.white),
+            Text('Move to favorites', style: TextStyle(color: Colors.white)),
+          ],
+        ),
+      ),
+    );
+  }
+
   Widget _buildheadTF() {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 10.0),
-      width: double.infinity,
+      width: 380,
       child: RaisedButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(
+            Radius.circular(20.0),
+          ),
+        ),
         elevation: 5.0,
         onPressed: () => print('Ev Bakım Button Pressed'),
         padding: EdgeInsets.all(15.0),
         color: butonrengi2,
         child: Text(
-          'Ürün Adı             Giriş Tarihi             Kalan Gün',
+          'Ürün             Giriş             Son Kullanma',
           style: TextStyle(
             color: yazirengi,
             fontSize: 15.0,
@@ -84,40 +121,16 @@ class _LoginScreenState extends State<ListScreen> {
     );
   }
 
-  Widget _buildurun1TF() {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 1.0),
-      width: double.infinity,
-      child: RaisedButton(
-          elevation: 5.0,
-          onPressed: () => print('Ev Bakım Button Pressed'),
-          padding: EdgeInsets.all(15.0),
-          color: butonrengi2,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly, // use whichever suits your need
-            children: <Widget>[
-              Text(
-                urun_list[0].productname,
-                style: TextStyle(
-                  color: yazirengi,
-                  fontSize: 15.0,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'OpenSans',
-                ),
-              ),
-              Text(
-                urun_list[0].expirationDate.toString(),
-                style: TextStyle(
-                  color: yazirengi,
-                  fontSize: 15.0,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'OpenSans',
-                ),
-              ),
-            ],
-          )
-      ),
-    );
+  void deleteItem(index) {
+    setState(() {
+      urun_list.removeAt(index);
+    });
+  }
+
+  void undoDeletion(index, item) {
+    setState(() {
+      urun_list.insert(index, item);
+    });
   }
 
   @override
@@ -164,43 +177,68 @@ class _LoginScreenState extends State<ListScreen> {
                   ),
                 ),
               ),
-              Container(
-                height: double.infinity,
-                child: SingleChildScrollView(
-                  physics: AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 5.0,
-                    vertical: 20.0,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      _buildaraTF(),
-                      _buildheadTF(),
-                      for ( var i in urun_list )
-                        SignInButton(
-                          text: i.productname,
-                          text1: i.expirationDate.toString(),
-                          onPressed: () {},
-                        ),
-                      // _buildurun2TF(),
-                      // _buildurun3TF(),
-                      // _buildurun4TF(),
-                      // _buildurun5TF(),
-                      // _buildurun6TF(),
-                      // _buildurun7TF(),
-                      // _buildurun8TF(),
-                      // _buildurun9TF(),
-                      // _buildurun10TF(),
-                      // _buildurun11TF(),
-                      // _buildurun12TF(),
-                      // _buildurun13TF(),
-                      // _buildurun14TF(),
-                      // _buildurun15TF(),
-                    ],
-                  ),
-                ),
-              )
+              Flex(
+                direction: Axis.vertical,
+                children: <Widget>[
+                  _buildaraTF(),
+                  _buildheadTF(),
+                  Flexible(flex: 1,
+                      child: ListView.builder(
+                        itemCount: urun_list.length,
+                        itemBuilder: (context, index) {
+                          return Dismissible(
+                              background: stackBehindDismiss(),
+                              secondaryBackground: secondarystackBehindDismiss(),
+                              key: ObjectKey(urun_list[index]),
+                              child: Container(
+                                padding: EdgeInsets.all(5.0),
+                                child: SignInButton(
+                                  text: urun_list[index].productname,
+                                  text1: urun_list[index].enterance,
+                                  text2: urun_list[index].expirationDate,
+                                  onPressed: () {},
+                                ),
+                              ),
+                              onDismissed: (direction) {
+                                if (direction == DismissDirection.startToEnd) {
+                                  print("Add to favorite");
+                                  //add "add to favorite" function
+                                } else {
+                                  print('Remove item');
+                                  deleteItem(index);
+                                }
+                              },
+                              confirmDismiss: (DismissDirection direction) async {
+                                return await showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      title: const Text("Confirm"),
+                                      content: direction == DismissDirection.startToEnd
+                                          ? Text(
+                                          "Are you sure you wish add to favorite this item?")
+                                          : Text(
+                                          "Are you sure you wish to delete this item?"),
+                                      actions: <Widget>[
+                                        FlatButton(
+                                          onPressed: () => Navigator.of(context).pop(true),
+                                          child: direction == DismissDirection.startToEnd
+                                              ? Text("FAVORITE")
+                                              : Text("DELETE"),
+                                        ),
+                                        FlatButton(
+                                          onPressed: () => Navigator.of(context).pop(false),
+                                          child: const Text("CANCEL"),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                              });
+                        },
+                      ),)
+                ],
+              ),
             ],
           ),
         ),

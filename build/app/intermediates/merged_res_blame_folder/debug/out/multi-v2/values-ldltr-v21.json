@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home4\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\773bfdda516b39823fc1d5a125b2b08f\\appcompat-1.2.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",

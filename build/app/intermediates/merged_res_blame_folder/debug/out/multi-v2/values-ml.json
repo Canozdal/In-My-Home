@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home4\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
             "map": [
                 {
                     "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\4bbf41b3402a4dc00d3edbe59cb0c8f9\\jetified-facebook-login-13.0.0\\res\\values-ml\\values-ml.xml",

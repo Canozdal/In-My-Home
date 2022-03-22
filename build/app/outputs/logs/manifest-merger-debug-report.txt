@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:4:5-33:19
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
-MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:4:5-33:19
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
@@ -92,28 +92,28 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\musta\.gr
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:18-44
 	android:largeHeap
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
 	android:theme
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
 	android:name
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-MERGED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
-MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\0cc6e6b1eb08d20eb1f28ac88ecc890b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
@@ -201,49 +201,49 @@ MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\musta\.gradle\caches\transfor
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\30d282c3933eb3527d30f228e57d8509\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\94c6acce0729675a1c97bd7e3c06cc32\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\902b140f163e387c7fef988412b75fa7\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:2:5-35
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:1-34:12
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_facebook_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\0cc6e6b1eb08d20eb1f28ac88ecc890b\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\0cc6e6b1eb08d20eb1f28ac88ecc890b\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:6:5-8:41
@@ -418,20 +418,20 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\mus
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\94c6acce0729675a1c97bd7e3c06cc32\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\902b140f163e387c7fef988412b75fa7\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\902b140f163e387c7fef988412b75fa7\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:6:5-67
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
-MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
-MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:6:5-67
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:14:5-67
@@ -449,9 +449,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\071b1491851085c4e5a95098a571abfa\jetified-play-services-measurement-sdk-api-20.0.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\071b1491851085c4e5a95098a571abfa\jetified-play-services-measurement-sdk-api-20.0.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\musta\AndroidStudioProjects\In-My-Home4\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:13:5-79
@@ -471,9 +471,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] C:
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\254331b572c0b32cb149ed9e6c6160d7\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\254331b572c0b32cb149ed9e6c6160d7\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:25:5-68
@@ -483,17 +483,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\071b1491851085c4e5a95098a571abfa\jetified-play-services-measurement-sdk-api-20.0.2\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\071b1491851085c4e5a95098a571abfa\jetified-play-services-measurement-sdk-api-20.0.2\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
@@ -517,69 +517,69 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
+		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
 	android:value
-		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
 	android:name
-		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
+		ADDED from [:firebase_analytics] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
 	android:exported
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
 	android:resource
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
 	android:name
-		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+		ADDED from [:image_picker] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
 uses-permission#android.permission.CAMERA
-ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 uses-feature#android.hardware.camera
-ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
+ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
 uses-permission#android.permission.FLASHLIGHT
-ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
+ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
 	android:name
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
 activity#com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
-ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
+ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
 	android:name
-		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
+		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
 meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
 ADDED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\59aedc9d0c9b1151a40df757ff80b89f\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:15:13-17:85
 	android:value
@@ -730,7 +730,7 @@ ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\
 		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:36:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:39:13-48:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.co.flutter1+data:scheme:fbconnect
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.inmyhome+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:39:13-48:29
 uses-permission#com.google.android.gms.permission.AD_ID
 ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:5-79

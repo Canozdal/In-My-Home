@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "C:\\Users\\musta\\AndroidStudioProjects\\In-My-Home4\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
                     "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\4862ef8d596889903b7d82ee14ced4e6\\jetified-facebook-common-13.0.0\\res\\values-id\\values-id.xml",

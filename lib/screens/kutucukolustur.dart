@@ -7,6 +7,7 @@ class SignInButton extends CustomRaisedButton {
   SignInButton({
     required String text,
     required String text1,
+    required String text2,
     required VoidCallback onPressed,
   }) : super(
     child: Row(
@@ -23,6 +24,15 @@ class SignInButton extends CustomRaisedButton {
         ),
         Text(
           text1,
+          style: TextStyle(
+            color: yazirengi,
+            fontSize: 15.0,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'OpenSans',
+          ),
+        ),
+        Text(
+          text2,
           style: TextStyle(
             color: yazirengi,
             fontSize: 15.0,
