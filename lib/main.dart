@@ -8,6 +8,7 @@ import 'package:flutter1/screens/listscreen.dart';
 import 'package:flutter1/screens/login_screen.dart';
 import 'package:flutter1/screens/productekle.dart';
 import 'package:flutter1/screens/profile.dart';
+import 'package:flutter1/screens/shoppingscreen.dart';
 import 'package:flutter1/screens/tarama.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -17,15 +18,19 @@ Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   List product_list = product_calistir();
+  List shopping_list2 = product_calistir();
+  List araeleman2=[];
 
 
-  runApp(MyApp(urun_list: product_list));
+  runApp(MyApp(urun_list: product_list, shopping_list: shopping_list2,araeleman_list: araeleman2));
 
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({required this.urun_list});
+  MyApp({required this.urun_list,required this.shopping_list,required this.araeleman_list});
   List urun_list;
+  List shopping_list;
+  List araeleman_list;
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -41,9 +46,10 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/kayıt': (context) => KayitScreen(),
         '/kayıtolma': (context) => HesapScreen(),
-        '/list': (context) => ListScreen(urunlist: urun_list,),
+        '/list': (context) => ListScreen(urunlist: urun_list,araeleman: araeleman_list,),
         '/tarama': (context) => TaramaScreen(),
         '/profil' : (context) => ProfilePage(),
+        '/shopping': (context) => ShoppingScreen(shoppinglist: shopping_list,araeleman: araeleman_list,),
       },
     );
   }

@@ -11,21 +11,21 @@ var yazirengi = Color(0xF0FFFFFF);
 var butonrengi2= Color(0xFF083663);
 var butonrengi3= Color(0xFF487BEA);
 
-const List deneme = [];
-
 
 class ListScreen extends StatefulWidget {
-  ListScreen({required this.urunlist});
+  ListScreen({required this.urunlist,required this.araeleman});
   List urunlist;
+  List araeleman;
   // @override
-  _LoginScreenState createState() => _LoginScreenState(urun_list: urunlist);
+  _LoginScreenState createState() => _LoginScreenState(urun_list: urunlist,araeleman_list: araeleman);
 
 }
 
 class _LoginScreenState extends State<ListScreen> {
   bool _rememberMe = false;
-  _LoginScreenState({required this.urun_list});
+  _LoginScreenState({required this.urun_list,required this.araeleman_list});
   List urun_list;
+  List araeleman_list=['a'];
   // get urunlist => urunlist;
   // get urunlist => Future.value(urunlist);
 
@@ -65,14 +65,18 @@ class _LoginScreenState extends State<ListScreen> {
 
   Widget secondarystackBehindDismiss() {
     return Container(
-      color: Colors.red,
+      height: 50,
+      decoration: BoxDecoration(
+        color: Color(0xFFAA031D),
+        borderRadius: BorderRadius.circular(30.0),
+      ),
       child: Padding(
         padding: const EdgeInsets.all(15),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            Icon(Icons.delete, color: Colors.white),
-            Text('Move to trash', style: TextStyle(color: Colors.white)),
+            Icon(Icons.delete, color: yazirengi),
+            Text('', style: TextStyle(color: Colors.white)),
           ],
         ),
       ),
@@ -81,13 +85,16 @@ class _LoginScreenState extends State<ListScreen> {
 
   Widget stackBehindDismiss() {
     return Container(
-      color: Colors.blue,
+      decoration: BoxDecoration(
+        color: Color(0xFF479BF1),
+        borderRadius: BorderRadius.circular(30.0),
+      ),
       child: Padding(
         padding: const EdgeInsets.all(15),
         child: Row(
           children: [
-            Icon(Icons.favorite, color: Colors.white),
-            Text('Move to favorites', style: TextStyle(color: Colors.white)),
+            Icon(Icons.favorite, color: yazirengi),
+            Text('', style: TextStyle(color: Colors.white)),
           ],
         ),
       ),
@@ -121,9 +128,20 @@ class _LoginScreenState extends State<ListScreen> {
     );
   }
 
+
+
   void deleteItem(index) {
     setState(() {
+      // araeleman = List.from(urun_list[index]);
+      // araeleman.add(urun_list[index]);
       urun_list.removeAt(index);
+    });
+  }
+
+  void addItem(index) {
+    setState(() {
+      // araeleman = List.from(urun_list[index]);
+      araeleman_list.add(urun_list[index]);
     });
   }
 
@@ -205,6 +223,7 @@ class _LoginScreenState extends State<ListScreen> {
                                   //add "add to favorite" function
                                 } else {
                                   print('Remove item');
+                                  addItem(index);
                                   deleteItem(index);
                                 }
                               },
@@ -235,8 +254,11 @@ class _LoginScreenState extends State<ListScreen> {
                                   },
                                 );
                               });
+
                         },
-                      ),)
+                      ),
+
+                  )
                 ],
               ),
             ],

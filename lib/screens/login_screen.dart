@@ -111,7 +111,9 @@ class _LoginScreenState extends State<LoginScreen> {
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () => print('Alışveriş Listesi Button Pressed'),
+        onPressed: () {
+          Navigator.pushNamed(context, '/shopping');
+        },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
