@@ -55,23 +55,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\4bbf41b3402a4dc00d3edbe59cb0c8f9\\jetified-facebook-login-13.0.0\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,190,302,410",
-                        "endColumns": "134,111,107,147",
-                        "endOffsets": "185,297,405,553"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,40",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3303,3438,3550,3658",
-                        "endColumns": "134,111,107,147",
-                        "endOffsets": "3433,3545,3653,3801"
-                    }
-                },
-                {
                     "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\57fd8e1d7bc2c4056398e541a1301e41\\jetified-play-services-basement-18.0.0\\res\\values-en-rGB\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -105,6 +88,23 @@
                         "endLines": "5,33,34,35,36,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108",
                         "endColumns": "12,76,97,114,78,64,89,66,58,89,63,62,68,63,53,111,57,61,53,71,121,86,80,109,76,80,90,66,65,69,76,86,70,76,68,68,90,71,88,88,73,71,85,49,65,79,83,61,63,62,99,96,91,98,77",
                         "endOffsets": "272,3006,3104,3219,3298,6025,6115,6182,6241,6331,6395,6458,6527,6591,6645,6757,6815,6877,6931,7003,7125,7212,7293,7403,7480,7561,7652,7719,7785,7855,7932,8019,8090,8167,8236,8305,8396,8468,8557,8646,8720,8792,8878,8928,8994,9074,9158,9220,9284,9347,9447,9544,9636,9735,9813"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\musta\\.gradle\\caches\\transforms-2\\files-2.1\\2bc48893fd83f5a7cee2960895f81508\\jetified-facebook-login-13.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,190,302,410",
+                        "endColumns": "134,111,107,147",
+                        "endOffsets": "185,297,405,553"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3303,3438,3550,3658",
+                        "endColumns": "134,111,107,147",
+                        "endOffsets": "3433,3545,3653,3801"
                     }
                 }
             ]

@@ -186,6 +186,15 @@ com/facebook/internal/qualityvalidation/Excuse.class
 com/facebook/internal/qualityvalidation/ExcusesForDesignViolations.class
 com/facebook/login/LoginBehavior.class
 com/facebook/login/LoginManager.class
+com/facebook/share/ShareBuilder.class
+com/facebook/share/model/ShareMedia$Builder.class
+com/facebook/share/model/ShareMedia.class
+com/facebook/share/model/ShareMessengerActionButton.class
+com/facebook/share/model/ShareMessengerURLActionButton.class
+com/facebook/share/model/ShareModel.class
+com/facebook/share/model/ShareModelBuilder.class
+com/facebook/share/model/ShareOpenGraphObject.class
+com/facebook/share/model/ShareOpenGraphValueContainer.class
 com/google/android/gms/auth/api/accounttransfer/AuthenticatorTransferCompletionStatus.class
 com/google/android/gms/auth/api/credentials/Credential.class
 com/google/android/gms/auth/api/credentials/CredentialPickerConfig$Prompt.class

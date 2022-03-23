@@ -42,7 +42,7 @@ class Product{
 
 
   List listupdater(List updatedList){
-    enterance = "${_exp.day}-${_exp.month}-${_exp.year}";
+    enterance = "${_exp.day}.${_exp.month}.${_exp.year}";
     this.id = 1;
     int check = 0;
     if (updatedList.length > 0) {
@@ -59,7 +59,7 @@ class Product{
       }
     }
     this._exp = _exp.add(Duration(days: this.shelfLife, hours: 0, minutes: 0));
-    expirationDate = "${_exp.day}-${_exp.month}-${_exp.year}";
+    expirationDate = "${_exp.day}.${_exp.month}.${_exp.year}";
     updatedList.add(this);
     return updatedList;
   }

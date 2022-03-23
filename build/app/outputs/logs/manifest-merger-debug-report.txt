@@ -21,8 +21,8 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gra
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9eaf5222de18d8e25e7eec3f657e18db\jetified-firebase-analytics-20.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9eaf5222de18d8e25e7eec3f657e18db\jetified-firebase-analytics-20.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
@@ -43,12 +43,12 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4f21fa174cdc4df2a6adbb434a4bdb47\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4f21fa174cdc4df2a6adbb434a4bdb47\material-1.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:29:5-50:19
-MERGED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:29:5-50:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4d8f2e4d7a8414e62a9a1e2a6540a8b\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4d8f2e4d7a8414e62a9a1e2a6540a8b\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:30:5-60:19
-MERGED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:30:5-60:19
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:30:5-60:19
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:30:5-60:19
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\52e5b1c95536673dc403c5c7a8aeaff1\jetified-play-services-measurement-sdk-20.0.2\AndroidManifest.xml:22:5-23:19
@@ -81,6 +81,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\e33a580955c127493056b1f84651c719\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1330ca3a84083698b5cea87804bb5eab\jetified-facebook-bolts-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1330ca3a84083698b5cea87804bb5eab\jetified-facebook-bolts-13.1.0\AndroidManifest.xml:28:5-29:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\eb8d9937f7d1dda95540b9e161ea9375\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\eb8d9937f7d1dda95540b9e161ea9375\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d88582f9a307a9ed8d4c8542d2c00da8\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -90,7 +92,7 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\musta\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\eb8d9937f7d1dda95540b9e161ea9375\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:18-44
+		ADDED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:28:18-44
 	android:largeHeap
 		ADDED from [:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
 	android:theme
@@ -119,7 +121,7 @@ MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\musta\.
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\835bea68431ed3337500c446398fda9a\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9eaf5222de18d8e25e7eec3f657e18db\jetified-firebase-analytics-20.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:2:1-26:12
@@ -131,10 +133,10 @@ MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\musta\.
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\bbeef7d25fcb65400195dcc3e588798c\exifinterface-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4f21fa174cdc4df2a6adbb434a4bdb47\material-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:21:1-52:12
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:21:1-52:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4d8f2e4d7a8414e62a9a1e2a6540a8b\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\773bfdda516b39823fc1d5a125b2b08f\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:21:1-62:12
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:21:1-62:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\83c2dfbc87fba3ffcf63d27b19ed6793\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\34177d7471a238addd86b77567e272af\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d460645b4a0caebaf5cee2091f9f3dd1\browser-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -173,6 +175,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\07ffed2d676ab968de9a813d4340cb18\fragment-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9e2725db1005f1e766255010560233e8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1330ca3a84083698b5cea87804bb5eab\jetified-facebook-bolts-13.1.0\AndroidManifest.xml:21:1-31:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\babb3af7f98a8f93a56271107c4cf6dc\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.activity:activity:1.2.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\62d989bccde602197b22f35eb38bf10a\jetified-activity-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\6cbeda33df9d8e094cc2798a2decb81e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -254,8 +257,8 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\musta\.gradle\ca
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\835bea68431ed3337500c446398fda9a\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9eaf5222de18d8e25e7eec3f657e18db\jetified-firebase-analytics-20.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9eaf5222de18d8e25e7eec3f657e18db\jetified-firebase-analytics-20.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
@@ -278,14 +281,14 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\musta\.gradle\
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\bbeef7d25fcb65400195dcc3e588798c\exifinterface-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4f21fa174cdc4df2a6adbb434a4bdb47\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4f21fa174cdc4df2a6adbb434a4bdb47\material-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:25:5-27:41
-MERGED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:25:5-27:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4d8f2e4d7a8414e62a9a1e2a6540a8b\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4d8f2e4d7a8414e62a9a1e2a6540a8b\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\773bfdda516b39823fc1d5a125b2b08f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\773bfdda516b39823fc1d5a125b2b08f\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\83c2dfbc87fba3ffcf63d27b19ed6793\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\83c2dfbc87fba3ffcf63d27b19ed6793\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\34177d7471a238addd86b77567e272af\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
@@ -362,6 +365,8 @@ MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\musta\.gradle\caches\tra
 MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\07ffed2d676ab968de9a813d4340cb18\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9e2725db1005f1e766255010560233e8\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\9e2725db1005f1e766255010560233e8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1330ca3a84083698b5cea87804bb5eab\jetified-facebook-bolts-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1330ca3a84083698b5cea87804bb5eab\jetified-facebook-bolts-13.1.0\AndroidManifest.xml:24:5-26:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\babb3af7f98a8f93a56271107c4cf6dc\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\babb3af7f98a8f93a56271107c4cf6dc\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.activity:activity:1.2.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\62d989bccde602197b22f35eb38bf10a\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -709,67 +714,67 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\c
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:30:9-33:66
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:30:9-33:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:32:13-96
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:32:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:33:13-63
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:33:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:31:13-57
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:31:13-57
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:34:9-71
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:34:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:34:19-68
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:34:19-68
 activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:35:9-49:20
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:35:9-49:20
 	tools:node
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:38:13-31
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:38:13-31
 	android:exported
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:37:13-36
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:36:13-58
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:36:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
-ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:39:13-48:29
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:39:13-48:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.inmyhome+data:scheme:fbconnect
-ADDED from [com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:39:13-48:29
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:39:13-48:29
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:5-79
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:28:5-79
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\f42ec219aa64da1caa9dc024862b80af\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\f42ec219aa64da1caa9dc024862b80af\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:22-76
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:28:22-76
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:41:9-44:40
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:41:9-44:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:43:13-72
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:43:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:44:13-37
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:42:13-70
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:42:13-70
 receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:46:9-52:20
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:46:9-52:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:48:13-37
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:47:13-86
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:47:13-86
 intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:49:13-51:29
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:49:13-51:29
 action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:50:17-95
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:50:25-92
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:50:25-92
 receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:53:9-59:20
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:53:9-59:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:55:13-37
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:54:13-118
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:54:13-118
 intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:56:13-58:29
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:56:13-58:29
 action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:57:17-103
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:57:17-103
 	android:name
-		ADDED from [com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:57:25-100
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:57:25-100
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\b49bf83c66606356599aa6a31d35b508\jetified-play-services-measurement-impl-20.0.2\AndroidManifest.xml:26:5-110

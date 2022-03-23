@@ -32,8 +32,8 @@
 21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
 21-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
 22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-22-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:5-79
-22-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:28:22-76
+22-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:28:5-79
+22-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:28:22-76
 23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 23-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:5-110
 23-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:22-107
@@ -48,7 +48,7 @@
 31        android:largeHeap="true"
 31-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
 32        android:supportsRtl="true"
-32-->[com.facebook.android:facebook-login:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4bbf41b3402a4dc00d3edbe59cb0c8f9\jetified-facebook-login-13.0.0\AndroidManifest.xml:28:18-44
+32-->[com.facebook.android:facebook-login:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\2bc48893fd83f5a7cee2960895f81508\jetified-facebook-login-13.1.0\AndroidManifest.xml:28:18-44
 33        android:theme="@style/Theme.AppCompat.NoActionBar" >
 33-->[:flutter_barcode_scanner] C:\Users\musta\AndroidStudioProjects\In-My-Home4\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
 34        <activity
@@ -306,24 +306,24 @@
 181-->[com.google.firebase:firebase-common:20.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 182
 183        <activity
-183-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:30:9-33:66
+183-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:30:9-33:66
 184            android:name="com.facebook.FacebookActivity"
-184-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:31:13-57
+184-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:31:13-57
 185            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-185-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:32:13-96
+185-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:32:13-96
 186            android:theme="@style/com_facebook_activity_theme" />
-186-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:33:13-63
+186-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:33:13-63
 187        <activity android:name="com.facebook.CustomTabMainActivity" />
-187-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:34:9-71
-187-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:34:19-68
+187-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:34:9-71
+187-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:34:19-68
 188        <activity
-188-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:35:9-49:20
+188-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:35:9-49:20
 189            android:name="com.facebook.CustomTabActivity"
-189-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:36:13-58
+189-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:36:13-58
 190            android:exported="true" >
-190-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:37:13-36
+190-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:37:13-36
 191            <intent-filter>
-191-->[com.facebook.android:facebook-common:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\4862ef8d596889903b7d82ee14ced4e6\jetified-facebook-common-13.0.0\AndroidManifest.xml:39:13-48:29
+191-->[com.facebook.android:facebook-common:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\5c8983c97eb626beadb6f6f92f2ec04b\jetified-facebook-common-13.1.0\AndroidManifest.xml:39:13-48:29
 192                <action android:name="android.intent.action.VIEW" />
 192-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
 192-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
@@ -353,38 +353,38 @@
 209         a completely different provider.
 210        -->
 211        <provider
-211-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:41:9-44:40
+211-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:41:9-44:40
 212            android:name="com.facebook.internal.FacebookInitProvider"
-212-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:42:13-70
+212-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:42:13-70
 213            android:authorities="com.example.inmyhome.FacebookInitProvider"
-213-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:43:13-72
+213-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:43:13-72
 214            android:exported="false" />
-214-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:44:13-37
+214-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:44:13-37
 215
 216        <receiver
-216-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:46:9-52:20
+216-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:46:9-52:20
 217            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-217-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:47:13-86
+217-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:47:13-86
 218            android:exported="false" >
-218-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:48:13-37
+218-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:48:13-37
 219            <intent-filter>
-219-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:49:13-51:29
+219-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:49:13-51:29
 220                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-220-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:50:17-95
-220-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:50:25-92
+220-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:50:17-95
+220-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:50:25-92
 221            </intent-filter>
 222        </receiver>
 223        <receiver
-223-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:53:9-59:20
+223-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:53:9-59:20
 224            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-224-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:54:13-118
+224-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:54:13-118
 225            android:exported="false" >
-225-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:55:13-37
+225-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:55:13-37
 226            <intent-filter>
-226-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:56:13-58:29
+226-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:56:13-58:29
 227                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-227-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:57:17-103
-227-->[com.facebook.android:facebook-core:13.0.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\d4b0a01871323f12e132a6ab47c83b85\jetified-facebook-core-13.0.0\AndroidManifest.xml:57:25-100
+227-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:57:17-103
+227-->[com.facebook.android:facebook-core:13.1.0] C:\Users\musta\.gradle\caches\transforms-2\files-2.1\1357d2ad2566cc37d23bdbac790ae099\jetified-facebook-core-13.1.0\AndroidManifest.xml:57:25-100
 228            </intent-filter>
 229        </receiver>
 230        <receiver

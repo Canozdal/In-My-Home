@@ -40,7 +40,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView लॉग इन ला इंटरनेट परवानगीची आवश्यकता आहे</string>
     <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest त्रुटी</string>
     <string gender="unknown" name="com_facebook_like_button_liked">लाइक केले</string>
-    <string gender="unknown" name="com_facebook_like_button_not_liked">लाइक केले</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">लाईक</string>
     <string gender="unknown" name="com_facebook_loading">लोड करत आहे…</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">रद्द करा</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">लॉग इन करा</string>

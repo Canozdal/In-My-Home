@@ -235,9 +235,9 @@ class _LoginScreenState extends State<ListScreen> {
                                       title: const Text("Confirm"),
                                       content: direction == DismissDirection.startToEnd
                                           ? Text(
-                                          "Are you sure you wish add to favorite this item?")
+                                          "Ürünü favorilere eklemek ister misiniz?")
                                           : Text(
-                                          "Are you sure you wish to delete this item?"),
+                                          "Ürünü silmek istediğinizden emin misiniz??"),
                                       actions: <Widget>[
                                         FlatButton(
                                           onPressed: () => Navigator.of(context).pop(true),
