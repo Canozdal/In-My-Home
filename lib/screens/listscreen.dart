@@ -17,13 +17,13 @@ class ListScreen extends StatefulWidget {
   List urunlist;
   List araeleman;
   // @override
-  _LoginScreenState createState() => _LoginScreenState(urun_list: urunlist,araeleman_list: araeleman);
+  _MyHomePageState createState() => _MyHomePageState(urun_list: urunlist,araeleman_list: araeleman);
 
 }
 
-class _LoginScreenState extends State<ListScreen> {
+class _MyHomePageState extends State<ListScreen> {
   bool _rememberMe = false;
-  _LoginScreenState({required this.urun_list,required this.araeleman_list});
+  _MyHomePageState({required this.urun_list,required this.araeleman_list});
   List urun_list;
   List araeleman_list=['a'];
   // get urunlist => urunlist;

@@ -14,10 +14,10 @@ var butonrengi3= Color(0xFF487BEA);
 
 class TaramaScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<TaramaScreen> {
+class _MyHomePageState extends State<TaramaScreen> {
   bool _rememberMe = false;
   String _scanBarcode = 'Unknown';
 

@@ -15,10 +15,10 @@ var butonrengi3= Color(0xFF487BEA);
 
 class HesapScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<HesapScreen> {
+class _MyHomePageState extends State<HesapScreen> {
   bool _rememberMe = false;
   final _formEmailKey = GlobalKey<FormState>();
   final _formPasswordKey = GlobalKey<FormState>();

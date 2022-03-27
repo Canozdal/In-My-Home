@@ -12,10 +12,10 @@ var butonrengi3= Color(0xFF487BEA);
 
 class KayitScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<KayitScreen> {
+class _MyHomePageState extends State<KayitScreen> {
   bool _rememberMe = false;
 
   final _registerEmailFormKey = GlobalKey<FormState>();

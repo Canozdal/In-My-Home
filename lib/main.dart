@@ -1,5 +1,8 @@
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter1/screens/ayarlarscreen.dart';
 import 'package:flutter1/screens/evimscreen.dart';
 import 'package:flutter1/screens/hesapscreen.dart';
@@ -11,6 +14,11 @@ import 'package:flutter1/screens/profile.dart';
 import 'package:flutter1/screens/shoppingscreen.dart';
 import 'package:flutter1/screens/tarama.dart';
 import 'package:firebase_core/firebase_core.dart';
+
+var butonrengi = Color(0x791074DE);
+var yazirengi = Color(0xF0FFFFFF);
+var butonrengi2= Color(0xFF083663);
+var butonrengi3= Color(0xFF487BEA);
 
 FirebaseAuth auth = FirebaseAuth.instance;
 
@@ -37,9 +45,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Login UI',
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
-      initialRoute: auth.currentUser == null ? '/kayıtolma' : '/login',
+      home: MyHomePage(),
+      initialRoute: auth.currentUser == null ? '/kayıtolma' : '/homepage',
       routes: {
+        '/homepage': (context) => MyHomePage(),
         '/first': (context) => EvimScreen(),
         '/ayarlar': (context) => AyarlarScreen(),
         '/oturum': (context) => HesapScreen(),
@@ -54,3 +63,92 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 4), () => Navigator.pushNamed(context, "/login"));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          Container(
+            decoration: BoxDecoration(
+              color: new Color(0xff622f74),
+              gradient: LinearGradient(
+                colors: [new Color(0xff6dd5ed), new Color(0xff2193b0)],
+                begin: Alignment.centerRight,
+                end: Alignment.centerLeft,
+              ),
+            ),
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              // CircleAvatar(
+              //   backgroundColor: Colors.white,
+              //   radius: 75.0,
+              //   child: Icon(
+              //     Icons.location_on,
+              //     color: new Color(0xff2193b0),
+              //     size: 50.0,
+              //   ),
+              // ),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(0.0),
+                child: Image.asset(
+                  'assets/logos/company.png',
+                  width: 200.0,
+                  height: 300.0,
+                  fit: BoxFit.fill,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 15.0),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //       body: Center(
+  //         child: ClipRRect(
+  //           borderRadius:
+  //           BorderRadius.circular(0),
+  //           child: Image.asset(
+  //             'assets/logos/company.png',
+  //             width: 300.0,
+  //             height: 400.0,
+  //             fit: BoxFit.fill,
+  //           ),
+  //         ),
+  //       )
+  //   );
+  // }
+}
+// class SecondScreen extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title:Text("GeeksForGeeks")),
+//       body: Center(
+//           child:Text("Home page",textScaleFactor: 2,)
+//       ),
+//     );
+//   }
+// }

@@ -10,10 +10,10 @@ var butonrengi3= Color(0xFF487BEA);
 
 class LoginScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _MyHomePageState extends State<LoginScreen> {
   bool _rememberMe = false;
 
   Widget _buildEvimBtn() {

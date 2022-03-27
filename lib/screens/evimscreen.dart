@@ -8,10 +8,10 @@ var butonrengi3= Color(0xFF487BEA);
 
 class EvimScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<EvimScreen> {
+class _MyHomePageState extends State<EvimScreen> {
   bool _rememberMe = false;
 
   Widget _buildGidaBtn() {

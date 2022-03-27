@@ -7,10 +7,10 @@ var butonrengi = Color(0x791074DE);
 
 class LoginScreen2 extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginScreenState extends State<LoginScreen2> {
+class _MyHomePageState extends State<LoginScreen2> {
   bool _rememberMe = false;
 
   Widget _buildEmailTF() {

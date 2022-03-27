@@ -21,13 +21,13 @@ class ShoppingScreen extends StatefulWidget {
   List shoppinglist;
   List araeleman;
   // @override
-  _LoginScreenState createState() => _LoginScreenState(shopping_list: shoppinglist,araeleman_list: araeleman);
+  _MyHomePageState createState() => _MyHomePageState(shopping_list: shoppinglist,araeleman_list: araeleman);
 
 }
 
-class _LoginScreenState extends State<ShoppingScreen> {
+class _MyHomePageState extends State<ShoppingScreen> {
   bool _rememberMe = false;
-  _LoginScreenState({required this.shopping_list,required this.araeleman_list});
+  _MyHomePageState({required this.shopping_list,required this.araeleman_list});
   List shopping_list;
   List araeleman_list;
   int _itemCount = 1;
