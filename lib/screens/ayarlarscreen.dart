@@ -185,9 +185,9 @@ class _LoginScreenState extends State<AyarlarScreen> {
               ),
             ),),
             ClipRRect(
-              borderRadius: BorderRadius.circular(30.0),
+              borderRadius: BorderRadius.circular(0.0),
               child: Image.asset(
-                'assets/logos/foto.jpg',
+                'assets/logos/company.png',
                 width: 60.0,
                 height: 60.0,
                 fit: BoxFit.fill,

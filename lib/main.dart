@@ -14,6 +14,7 @@ import 'package:flutter1/screens/profile.dart';
 import 'package:flutter1/screens/shoppingscreen.dart';
 import 'package:flutter1/screens/tarama.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter1/screens/urundetay.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
@@ -59,6 +60,7 @@ class MyApp extends StatelessWidget {
         '/tarama': (context) => TaramaScreen(),
         '/profil' : (context) => ProfilePage(),
         '/shopping': (context) => ShoppingScreen(shoppinglist: shopping_list,araeleman: araeleman_list,),
+        '/urundetay': (context) => TarihScreen(araeleman4: araeleman_list, value: 0,)
       },
     );
   }
@@ -74,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 4), () => Navigator.pushNamed(context, "/login"));
+    Timer(Duration(seconds: 2), () => Navigator.pushNamed(context, "/login"));
   }
 
   @override

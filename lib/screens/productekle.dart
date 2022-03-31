@@ -26,10 +26,11 @@ List product_calistir() {
   users_product = product11.listupdater(users_product) ;
   users_product = product12.listupdater(users_product) ;
   users_product = product13.listupdater(users_product) ;
-  product2.listremover(users_product);
-  users_product = product2.listupdater(users_product) ;
+  // product2.listremover(users_product);
+  // users_product = product2.listupdater(users_product) ;
   return users_product;
 }
+
 
 class Product{
   Product({this.productname="",this.shelfLife=0});

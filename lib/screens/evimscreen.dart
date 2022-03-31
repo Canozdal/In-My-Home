@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter1/screens/kutucukolustur.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
@@ -13,6 +14,20 @@ class EvimScreen extends StatefulWidget {
 
 class _MyHomePageState extends State<EvimScreen> {
   bool _rememberMe = false;
+  DateTime selectedDate = DateTime.now();
+
+  Future<void> _selectDate(BuildContext context) async {
+    final DateTime? picked = await showDatePicker(
+        context: context,
+        initialDate: selectedDate,
+        firstDate: DateTime(2015, 8),
+        lastDate: DateTime(2101));
+    if (picked != null && picked != selectedDate) {
+      setState(() {
+        selectedDate = picked;
+      });
+    }
+  }
 
   Widget _buildGidaBtn() {
     return Container(
@@ -120,6 +135,34 @@ class _MyHomePageState extends State<EvimScreen> {
     );
   }
 
+  Widget _buildGeridonBtn() {
+    return Container(
+      padding: EdgeInsets.symmetric(vertical: 10.0),
+      width: double.infinity,
+      child: RaisedButton(
+        elevation: 5.0,
+        onPressed: () {
+          Navigator.pushNamed(context, '/login');
+        },
+        padding: EdgeInsets.all(15.0),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(30.0),
+        ),
+        color: butonrengi2,
+        child: Text(
+          'Geri Dön',
+          style: TextStyle(
+            color: yazirengi,
+            letterSpacing: 1.5,
+            fontSize: 18.0,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'OpenSans',
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _buildSocialBtn(Function onTap, AssetImage logo) {
     return GestureDetector(
       //onTap: onTap,
@@ -185,9 +228,9 @@ class _MyHomePageState extends State<EvimScreen> {
               ),
             ),),
             ClipRRect(
-              borderRadius: BorderRadius.circular(30.0),
+              borderRadius: BorderRadius.circular(0.0),
               child: Image.asset(
-                'assets/logos/foto.jpg',
+                'assets/logos/company.png',
                 width: 60.0,
                 height: 60.0,
                 fit: BoxFit.fill,
@@ -236,6 +279,13 @@ class _MyHomePageState extends State<EvimScreen> {
                       _buildEvBakimBtn(),
                       _buildIlacBtn(),
                       _buildDigerleriBtn(),
+                      _buildGeridonBtn(),
+                      // Text("${selectedDate.toLocal()}".split(' ')[0]),
+                      // SizedBox(height: 20.0,),
+                      // RaisedButton(
+                      //   onPressed: () => _selectDate(context),
+                      //   child: Text(_selectDate(context).toString()),
+                      // ),
                     ],
                   ),
                 ),

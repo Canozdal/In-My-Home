@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/screens/urundetay.dart';
 import 'kutucukolustur.dart';
 import 'productekle.dart';
 import 'package:flutter1/main.dart';
@@ -13,7 +14,7 @@ var butonrengi3= Color(0xFF487BEA);
 
 
 class ListScreen extends StatefulWidget {
-  ListScreen({required this.urunlist,required this.araeleman});
+  ListScreen({required this.urunlist,required this.araeleman, value});
   List urunlist;
   List araeleman;
   // @override
@@ -26,8 +27,22 @@ class _MyHomePageState extends State<ListScreen> {
   _MyHomePageState({required this.urun_list,required this.araeleman_list});
   List urun_list;
   List araeleman_list=['a'];
+  DateTime selectedDate = DateTime.now();
   // get urunlist => urunlist;
   // get urunlist => Future.value(urunlist);
+
+  Future<void> _selectDate(BuildContext context) async {
+    final DateTime? picked = await showDatePicker(
+        context: context,
+        initialDate: selectedDate,
+        firstDate: DateTime(2015, 8),
+        lastDate: DateTime(2101));
+    if (picked != null && picked != selectedDate) {
+      setState(() {
+        selectedDate = picked;
+      });
+    }
+  }
 
   Widget _buildaraTF() {
     return Column(
@@ -214,7 +229,11 @@ class _MyHomePageState extends State<ListScreen> {
                                   text: urun_list[index].productname,
                                   text1: urun_list[index].enterance,
                                   text2: urun_list[index].expirationDate,
-                                  onPressed: () {},
+                                  onPressed: () {var route = new MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                    new TarihScreen(value: index, araeleman4: urun_list,),
+                                  );
+                                  Navigator.of(context).push(route);},
                                 ),
                               ),
                               onDismissed: (direction) {
