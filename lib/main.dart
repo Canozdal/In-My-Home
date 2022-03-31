@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Login UI',
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
-      initialRoute: auth.currentUser == null ? '/kayıtolma' : '/homepage',
+      initialRoute: auth.currentUser == null ? '/homepage' : '/kayıtolma',
       routes: {
         '/homepage': (context) => MyHomePage(),
         '/first': (context) => EvimScreen(),
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 2), () => Navigator.pushNamed(context, "/login"));
+    Timer(Duration(seconds: 2), () => Navigator.pushNamed(context, "/kayıtolma"));
   }
 
   @override
