@@ -220,7 +220,6 @@ class _MyHomePageState extends State<ShoppingScreen> {
                                         minimumSize: Size(250, 60),
                                       ),
                                       child: Text(araeleman_list[index].productname)),
-                                  if (araeleman_list[index].count)
                                   _itemCount!=0?
                                   new  IconButton(icon: new Icon(Icons.remove),onPressed: ()=>setState(()=>_itemCount--),):
                                   new Container(),
