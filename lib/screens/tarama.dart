@@ -377,6 +377,7 @@ class Product {
   String productname;
   int shelfLife;
   int id = 0;
+  int count =1;
   DateTime _exp = DateTime.now();
   String expirationDate = "a";
   String enterance = "a";
