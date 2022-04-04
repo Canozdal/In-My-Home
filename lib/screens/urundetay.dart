@@ -283,6 +283,9 @@ class _MyHomePageState extends State<TarihScreen> {
                           text1: '',
                           text2: "${selectedDate.toLocal()}".split(' ')[0],
                           onPressed: () => _selectDate(context)),
+                      SizedBox(
+                        height: 30.0,
+                      ),
                       SignInButton(
                           text: 'Değiştir',
                           text1: '',

@@ -1,9 +1,11 @@
 import 'dart:async';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/screens/ayarlarscreen.dart';
+import 'package:flutter1/screens/constants.dart';
 import 'package:flutter1/screens/evimscreen.dart';
 import 'package:flutter1/screens/hesapscreen.dart';
 import 'package:flutter1/screens/kay%C4%B1tscreen.dart';
@@ -18,28 +20,34 @@ import 'package:flutter1/screens/urundetay.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
-var butonrengi2= Color(0xFF083663);
-var butonrengi3= Color(0xFF487BEA);
+var butonrengi2 = Color(0xFF083663);
+var butonrengi3 = Color(0xFF487BEA);
 
 FirebaseAuth auth = FirebaseAuth.instance;
 
-Future<void> main() async{
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  List product_list = product_calistir();
-  List shopping_list2 = product_calistir();
-  List araeleman2=[];
+  // List product_list = getUserMemories() as List;
+  // List shopping_list2 = getUserMemories() as List;
+  List araeleman2 = [];
 
-
-  runApp(MyApp(urun_list: product_list, shopping_list: shopping_list2,araeleman_list: araeleman2));
-
+  runApp(MyApp(
+    araeleman_list: araeleman2,
+    urun_list: [],
+    shopping_list: [],
+  ));
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({required this.urun_list,required this.shopping_list,required this.araeleman_list});
-  List urun_list;
-  List shopping_list;
+  MyApp(
+      {required this.araeleman_list,
+        required List shopping_list,
+        required List urun_list});
+  // List urun_list;
+  // List shopping_list;
   List araeleman_list;
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -47,7 +55,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Login UI',
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
-      initialRoute: auth.currentUser == null ? '/homepage' : '/kayıtolma',
+      initialRoute: '/homepage',
       routes: {
         '/homepage': (context) => MyHomePage(),
         '/first': (context) => EvimScreen(),
@@ -56,27 +64,39 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/kayıt': (context) => KayitScreen(),
         '/kayıtolma': (context) => HesapScreen(),
-        '/list': (context) => ListScreen(urunlist: urun_list,araeleman: araeleman_list,),
+        '/list': (context) => ListScreen(
+          araeleman: araeleman_list,
+          urunlist: userProducts,
+        ),
         '/tarama': (context) => TaramaScreen(),
-        '/profil' : (context) => ProfilePage(),
-        '/shopping': (context) => ShoppingScreen(shoppinglist: shopping_list,araeleman: araeleman_list,),
-        '/urundetay': (context) => TarihScreen(araeleman4: araeleman_list, value: 0,)
+        '/profil': (context) => ProfilePage(),
+        '/shopping': (context) => ShoppingScreen(
+          araeleman: araeleman_list,
+          shoppinglist: [],
+        ),
+        '/urundetay': (context) => TarihScreen(
+          araeleman4: araeleman_list,
+          value: 0,
+        )
       },
     );
   }
 }
 
-
-
 class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
+
 class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 2), () => Navigator.pushNamed(context, "/kayıtolma"));
+    Timer(
+        Duration(seconds: 2),
+            () => auth.currentUser != null
+            ? Navigator.pushNamed(context, "/login")
+            : Navigator.pushNamed(context, "/kayıtolma"));
   }
 
   @override
@@ -89,7 +109,8 @@ class _MyHomePageState extends State<MyHomePage> {
             decoration: BoxDecoration(
               color: new Color(0xff622f74),
               gradient: LinearGradient(
-                colors: [new Color(0xff6dd5ed), new Color(0xff2193b0)],
+                colors: [new Color(0xF0FFFFFF), new Color(0xF0FFFFFF)],
+                // colors: [new Color(0xff6dd5ed), new Color(0xff2193b0)],
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
               ),
@@ -125,23 +146,23 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-  // @override
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //       body: Center(
-  //         child: ClipRRect(
-  //           borderRadius:
-  //           BorderRadius.circular(0),
-  //           child: Image.asset(
-  //             'assets/logos/company.png',
-  //             width: 300.0,
-  //             height: 400.0,
-  //             fit: BoxFit.fill,
-  //           ),
-  //         ),
-  //       )
-  //   );
-  // }
+// @override
+// Widget build(BuildContext context) {
+//   return Scaffold(
+//       body: Center(
+//         child: ClipRRect(
+//           borderRadius:
+//           BorderRadius.circular(0),
+//           child: Image.asset(
+//             'assets/logos/ic_launcher.png',
+//             width: 300.0,
+//             height: 400.0,
+//             fit: BoxFit.fill,
+//           ),
+//         ),
+//       )
+//   );
+// }
 }
 // class SecondScreen extends StatelessWidget {
 //   @override

@@ -228,8 +228,8 @@ class _MyHomePageState extends State<ShoppingScreen> {
                                   // new Center(child: if (_itemCount==0){deleteItem(index),})
                                   // if (_itemCount == 0)
                                   //   araeleman_list.removeAt(index),
-                                    // if (araeleman_list.length==0)
-                                    //   araeleman_list.add('a'),
+                                  // if (araeleman_list.length==0)
+                                  //   araeleman_list.add('a'),
                                 ],
                               ),
                             ),

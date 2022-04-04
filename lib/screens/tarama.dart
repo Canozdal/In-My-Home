@@ -1,16 +1,21 @@
 import 'dart:async';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/flutter_barcode_scanner.dart';
+import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/screens/kutucukolustur.dart';
+
+import 'listscreen.dart';
 
 //import 'flutter_barcode_scanner.dart';
 //import 'package:flutter_login_ui/screens/flutter_barcode_scanner.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
-var butonrengi2= Color(0xFF083663);
-var butonrengi3= Color(0xFF487BEA);
+var butonrengi2 = Color(0xFF083663);
+var butonrengi3 = Color(0xFF487BEA);
 
 class TaramaScreen extends StatefulWidget {
   @override
@@ -20,6 +25,8 @@ class TaramaScreen extends StatefulWidget {
 class _MyHomePageState extends State<TaramaScreen> {
   bool _rememberMe = false;
   String _scanBarcode = 'Unknown';
+  List users_product = [];
+  List users_product2 = [];
 
   @override
   void initState() {
@@ -29,7 +36,7 @@ class _MyHomePageState extends State<TaramaScreen> {
   Future<void> startBarcodeScanStream() async {
     var scan = [];
     FlutterBarcodeScanner.getBarcodeStreamReceiver(
-            '#ff6666', 'Cancel', true, ScanMode.BARCODE)!
+        '#ff6666', 'Cancel', true, ScanMode.BARCODE)!
         .listen((barcode) => print(barcode));
   }
 
@@ -41,6 +48,7 @@ class _MyHomePageState extends State<TaramaScreen> {
       barcodeScanRes = await FlutterBarcodeScanner.scanBarcode(
           '#ff6666', 'Cancel', true, ScanMode.QR);
       print(barcodeScanRes);
+      //getUserMemories(barcodeScanRes);
     } on PlatformException {
       barcodeScanRes = 'Failed to get platform version.';
     }
@@ -51,20 +59,18 @@ class _MyHomePageState extends State<TaramaScreen> {
     if (!mounted) return;
 
     scan.add(barcodeScanRes);
-
-    setState(() {
-      _scanBarcode = scan[0] as String;
-    });
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> scanBarcodeNormal() async {
+    print('tarama çalıştı');
     var scan = [];
     String barcodeScanRes;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       barcodeScanRes = await FlutterBarcodeScanner.scanBarcode(
           '#ff6666', 'Cancel', true, ScanMode.BARCODE);
+      getUserMemories(barcodeScanRes);
       print(barcodeScanRes);
     } on PlatformException {
       barcodeScanRes = 'Failed to get platform version.';
@@ -82,7 +88,68 @@ class _MyHomePageState extends State<TaramaScreen> {
     });
   }
 
+  Future<List> getUserMemories(String barcode) async {
+    final _firestore = FirebaseFirestore.instance;
+    print('memories çalıştı');
+    // CollectionReference moviesRef = _firestore.collection('Products');
+    // var babaRef = moviesRef.doc('123456789');
+    CollectionReference memories = _firestore.collection('Products');
+    List _memories = [
+      {'title': 'myTitle'}
+    ];
+    try {
+      final result = await memories.get();
+      _memories = result.docs.map((e) => e.data()).toList();
+      print("In FirestoreService: $_memories");
+      print(_memories.length);
+      print(_memories[0]['barcode']);
+      for (var i = 0; i < _memories.length; i++) {
+        if (_memories[i]['barcode'] == barcode) {
+          print(_memories[i]['name']);
+          print(_memories[i]['barcode']);
+          var product1 = Product(
+              productname: _memories[i]['name'],
+              shelfLife: int.parse(_memories[i]['shelflife']));
+          setState(() {
+            userProducts.add(product1);
+            users_product = product1.listupdater(users_product);
+          });
+        }
+      }
+    } catch (e) {
+      print("Failed to obtain user's memories: $e");
+    }
+    //users_product = _memories;
+    return users_product;
+  }
+
   Widget _buildBarcodeBtn() {
+    return Container(
+      padding: EdgeInsets.symmetric(vertical: 10.0),
+      width: double.infinity,
+      child: RaisedButton(
+        elevation: 5.0,
+        onPressed: () => scanBarcodeNormal(),
+        padding: EdgeInsets.all(15.0),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(30.0),
+        ),
+        color: butonrengi2,
+        child: Text(
+          'Barcode',
+          style: TextStyle(
+            color: yazirengi,
+            letterSpacing: 1.5,
+            fontSize: 18.0,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'OpenSans',
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildUrunEkleBtn() {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 10.0),
       width: double.infinity,
@@ -167,7 +234,7 @@ class _MyHomePageState extends State<TaramaScreen> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           _buildSocialBtn(
-            () => print('Login with Google'),
+                () => print('Login with Google'),
             AssetImage(
               'assets/logos/google.jpg',
             ),
@@ -209,21 +276,24 @@ class _MyHomePageState extends State<TaramaScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(50),
-          ),),
+          ),
+        ),
         toolbarHeight: 80.0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              padding: const EdgeInsets.all(8.0), child: Text(
-              'In My Home',
-              style: TextStyle(
-                color: yazirengi,
-                fontFamily: 'OpenSans',
-                fontSize: 30.0,
-                fontWeight: FontWeight.bold,
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'In My Home',
+                style: TextStyle(
+                  color: yazirengi,
+                  fontFamily: 'OpenSans',
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),),
+            ),
             ClipRRect(
               borderRadius: BorderRadius.circular(0.0),
               child: Image.asset(
@@ -260,7 +330,6 @@ class _MyHomePageState extends State<TaramaScreen> {
                   ),
                 ),
               ),
-
               Container(
                 height: double.infinity,
                 child: SingleChildScrollView(
@@ -275,6 +344,20 @@ class _MyHomePageState extends State<TaramaScreen> {
                       _buildBarcodeBtn(),
                       _buildQrBtn(),
                       _buildStreamBtn(),
+                      SignInButton(
+                        text: 'Gönder',
+                        text1: '',
+                        text2: '',
+                        onPressed: () {
+                          var route = new MaterialPageRoute(
+                            builder: (BuildContext context) => new ListScreen(
+                              urunlist: userProducts,
+                              araeleman: [],
+                            ),
+                          );
+                          Navigator.of(context).push(route);
+                        },
+                      ),
                       Text('Scan result : $_scanBarcode\n',
                           style: TextStyle(fontSize: 20))
                     ],
@@ -286,5 +369,42 @@ class _MyHomePageState extends State<TaramaScreen> {
         ),
       ),
     );
+  }
+}
+
+class Product {
+  Product({this.productname = "", this.shelfLife = 0});
+  String productname;
+  int shelfLife;
+  int id = 0;
+  DateTime _exp = DateTime.now();
+  String expirationDate = "a";
+  String enterance = "a";
+
+  List listupdater(List updatedList) {
+    enterance = "${_exp.day}.${_exp.month}.${_exp.year}";
+    this.id = 1;
+    int check = 0;
+    if (updatedList.length > 0) {
+      while (check == 0) {
+        check = 1;
+        for (int i = 0; i < updatedList.length; i++) {
+          if (updatedList[i]['name'] == this.productname) {
+            /*if (updatedList[i].id == this.id){
+              this.id ++;
+              check = 0;
+            }*/
+          }
+        }
+      }
+    }
+    this._exp = _exp.add(Duration(days: this.shelfLife, hours: 0, minutes: 0));
+    expirationDate = "${_exp.day}.${_exp.month}.${_exp.year}";
+    updatedList.add(this);
+    return updatedList;
+  }
+
+  void listremover(List updatedList) {
+    updatedList.remove(this);
   }
 }

@@ -9,24 +9,27 @@ import 'package:flutter1/main.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
-var butonrengi2= Color(0xFF083663);
-var butonrengi3= Color(0xFF487BEA);
-
+var butonrengi2 = Color(0xFF083663);
+var butonrengi3 = Color(0xFF487BEA);
 
 class ListScreen extends StatefulWidget {
-  ListScreen({required this.urunlist,required this.araeleman, value});
+  ListScreen({
+    required this.urunlist,
+    required this.araeleman,
+    value,
+  });
   List urunlist;
   List araeleman;
   // @override
-  _MyHomePageState createState() => _MyHomePageState(urun_list: urunlist,araeleman_list: araeleman);
-
+  _MyHomePageState createState() =>
+      _MyHomePageState(urun_list: urunlist, araeleman_list: araeleman);
 }
 
 class _MyHomePageState extends State<ListScreen> {
   bool _rememberMe = false;
-  _MyHomePageState({required this.urun_list,required this.araeleman_list});
+  _MyHomePageState({required this.urun_list, required this.araeleman_list});
   List urun_list;
-  List araeleman_list=['a'];
+  List araeleman_list = ['a'];
   DateTime selectedDate = DateTime.now();
   // get urunlist => urunlist;
   // get urunlist => Future.value(urunlist);
@@ -143,8 +146,6 @@ class _MyHomePageState extends State<ListScreen> {
     );
   }
 
-
-
   void deleteItem(index) {
     setState(() {
       // araeleman = List.from(urun_list[index]);
@@ -174,7 +175,8 @@ class _MyHomePageState extends State<ListScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(50),
-          ),),
+          ),
+        ),
         toolbarHeight: 80.0,
         title: Text(
           '             Gıda',
@@ -215,69 +217,77 @@ class _MyHomePageState extends State<ListScreen> {
                 children: <Widget>[
                   _buildaraTF(),
                   _buildheadTF(),
-                  Flexible(flex: 1,
-                      child: ListView.builder(
-                        itemCount: urun_list.length,
-                        itemBuilder: (context, index) {
-                          return Dismissible(
-                              background: stackBehindDismiss(),
-                              secondaryBackground: secondarystackBehindDismiss(),
-                              key: ObjectKey(urun_list[index]),
-                              child: Container(
-                                padding: EdgeInsets.all(5.0),
-                                child: SignInButton(
-                                  text: urun_list[index].productname,
-                                  text1: urun_list[index].enterance,
-                                  text2: urun_list[index].expirationDate,
-                                  onPressed: () {var route = new MaterialPageRoute(
+                  Flexible(
+                    flex: 1,
+                    child: ListView.builder(
+                      itemCount: urun_list.length,
+                      itemBuilder: (context, index) {
+                        return Dismissible(
+                            background: stackBehindDismiss(),
+                            secondaryBackground: secondarystackBehindDismiss(),
+                            key: ObjectKey(urun_list[index]),
+                            child: Container(
+                              padding: EdgeInsets.all(5.0),
+                              child: SignInButton(
+                                text: urun_list[index].productname,
+                                text1: urun_list[index].enterance,
+                                text2: urun_list[index].expirationDate,
+                                onPressed: () {
+                                  var route = new MaterialPageRoute(
                                     builder: (BuildContext context) =>
-                                    new TarihScreen(value: index, araeleman4: urun_list,),
+                                    new TarihScreen(
+                                      value: index,
+                                      araeleman4: urun_list,
+                                    ),
                                   );
-                                  Navigator.of(context).push(route);},
-                                ),
+                                  Navigator.of(context).push(route);
+                                },
                               ),
-                              onDismissed: (direction) {
-                                if (direction == DismissDirection.startToEnd) {
-                                  print("Add to favorite");
-                                  //add "add to favorite" function
-                                } else {
-                                  print('Remove item');
-                                  addItem(index);
-                                  deleteItem(index);
-                                }
-                              },
-                              confirmDismiss: (DismissDirection direction) async {
-                                return await showDialog(
-                                  context: context,
-                                  builder: (BuildContext context) {
-                                    return AlertDialog(
-                                      title: const Text("Confirm"),
-                                      content: direction == DismissDirection.startToEnd
-                                          ? Text(
-                                          "Ürünü favorilere eklemek ister misiniz?")
-                                          : Text(
-                                          "Ürünü silmek istediğinizden emin misiniz??"),
-                                      actions: <Widget>[
-                                        FlatButton(
-                                          onPressed: () => Navigator.of(context).pop(true),
-                                          child: direction == DismissDirection.startToEnd
-                                              ? Text("FAVORITE")
-                                              : Text("DELETE"),
-                                        ),
-                                        FlatButton(
-                                          onPressed: () => Navigator.of(context).pop(false),
-                                          child: const Text("CANCEL"),
-                                        ),
-                                      ],
-                                    );
-                                  },
-                                );
-                              });
-
-                        },
-                      ),
-
-                  )
+                            ),
+                            onDismissed: (direction) {
+                              if (direction == DismissDirection.startToEnd) {
+                                print("Add to favorite");
+                                //add "add to favorite" function
+                              } else {
+                                print('Remove item');
+                                addItem(index);
+                                deleteItem(index);
+                              }
+                            },
+                            confirmDismiss: (DismissDirection direction) async {
+                              return await showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return AlertDialog(
+                                    title: const Text("Confirm"),
+                                    content: direction ==
+                                        DismissDirection.startToEnd
+                                        ? Text(
+                                        "Ürünü favorilere eklemek ister misiniz?")
+                                        : Text(
+                                        "Ürünü silmek istediğinizden emin misiniz??"),
+                                    actions: <Widget>[
+                                      FlatButton(
+                                        onPressed: () =>
+                                            Navigator.of(context).pop(true),
+                                        child: direction ==
+                                            DismissDirection.startToEnd
+                                            ? Text("FAVORITE")
+                                            : Text("DELETE"),
+                                      ),
+                                      FlatButton(
+                                        onPressed: () =>
+                                            Navigator.of(context).pop(false),
+                                        child: const Text("CANCEL"),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              );
+                            });
+                      },
+                    ),
+                  ),
                 ],
               ),
             ],

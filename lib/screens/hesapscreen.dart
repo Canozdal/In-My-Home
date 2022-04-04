@@ -10,8 +10,8 @@ import '../service/validator2.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
-var butonrengi2= Color(0xFF083663);
-var butonrengi3= Color(0xFF487BEA);
+var butonrengi2 = Color(0xFF083663);
+var butonrengi3 = Color(0xFF487BEA);
 
 class HesapScreen extends StatefulWidget {
   @override
@@ -89,16 +89,14 @@ class _MyHomePageState extends State<HesapScreen> {
         SizedBox(height: 10.0),
         Form(
           key: _formPasswordKey,
-          child:
-          Container(
+          child: Container(
             alignment: Alignment.centerLeft,
             decoration: kBoxDecorationStyle,
             height: 60.0,
             child: TextFormField(
               controller: _passwordTextController,
               focusNode: _focusPassword,
-              validator: (value) => Validator.validatePassword(
-                  password: value),
+              validator: (value) => Validator.validatePassword(password: value),
               obscureText: true,
               style: TextStyle(
                 color: yazirengi,
@@ -119,7 +117,6 @@ class _MyHomePageState extends State<HesapScreen> {
             ),
           ),
         ),
-
       ],
     );
   }
@@ -170,30 +167,34 @@ class _MyHomePageState extends State<HesapScreen> {
   }
 
   Widget _buildLoginBtn() {
-    return _isProcessing? CircularProgressIndicator() : Container(
+    return _isProcessing
+        ? CircularProgressIndicator()
+        : Container(
       padding: EdgeInsets.symmetric(vertical: 10.0),
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () async{
+        onPressed: () async {
           _focusEmail.unfocus();
           _focusPassword.unfocus();
 
-          if(_formEmailKey.currentState!.validate() || _formPasswordKey.currentState!.validate()){
-              setState(() {
-                _isProcessing = true;
-              });
+          if (_formEmailKey.currentState!.validate() ||
+              _formPasswordKey.currentState!.validate()) {
+            setState(() {
+              _isProcessing = true;
+            });
           }
 
           User? user = await UserService.signInUsingEmailPassword(
               email: _emailTextController.text,
               password: _passwordTextController.text);
+          if (user == null) {
+            setState(() {
+              _isProcessing = false;
+            });
+          }
 
-          setState(() {
-            _isProcessing = false;
-          });
-
-          Navigator.pushNamed(context, '/login');
+          if (_isProcessing) Navigator.pushNamed(context, '/login');
         },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
@@ -258,43 +259,43 @@ class _MyHomePageState extends State<HesapScreen> {
     This button invokes a Google Authentication Process.
  */
   Widget _buildGoogleBtn() => ChangeNotifierProvider(
-        create: (BuildContext context) => GoogleSignInProvider(),
+      create: (BuildContext context) => GoogleSignInProvider(),
       child: Container(
-      padding: EdgeInsets.symmetric(vertical: 5.0),
-      width: double.infinity,
-      child: RaisedButton(
-        onPressed: () => { GoogleSignInProvider().googleLogin()
-        , print(GoogleSignInProvider().googleSignIn.currentUser?.email),
-        Navigator.pushNamed(context, '/login')},
-        padding: EdgeInsets.all(15.0),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(30.0),
-        ),
-        color: butonrengi2,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Image.asset('assets/logos/google-logo.png'),
-            Text(
-              'Google ile Kayıt Ol',
-              style: TextStyle(
-                color: yazirengi,
-                letterSpacing: 1.5,
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'OpenSans',
+        padding: EdgeInsets.symmetric(vertical: 5.0),
+        width: double.infinity,
+        child: RaisedButton(
+          onPressed: () => {
+            GoogleSignInProvider().googleLogin(),
+            print(GoogleSignInProvider().googleSignIn.currentUser?.email),
+            Navigator.pushNamed(context, '/login')
+          },
+          padding: EdgeInsets.all(15.0),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(30.0),
+          ),
+          color: butonrengi2,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Image.asset('assets/logos/google-logo.png'),
+              Text(
+                'Google ile Kayıt Ol',
+                style: TextStyle(
+                  color: yazirengi,
+                  letterSpacing: 1.5,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'OpenSans',
+                ),
               ),
-            ),
-            Opacity(
-              opacity: 0.0,
-              child: Image.asset('assets/logos/google-logo.png'),
-            ),
-          ],
+              Opacity(
+                opacity: 0.0,
+                child: Image.asset('assets/logos/google-logo.png'),
+              ),
+            ],
+          ),
         ),
-      ),
-    )
-    );
-
+      ));
 
   Widget _buildFacebookBtn() {
     return Container(
@@ -339,7 +340,8 @@ class _MyHomePageState extends State<HesapScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(50),
-          ),),
+          ),
+        ),
         toolbarHeight: 80.0,
         title: Text(
           '       In My Home',
@@ -386,7 +388,6 @@ class _MyHomePageState extends State<HesapScreen> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-
                       SizedBox(height: 30.0),
                       _buildEmailTF(),
                       SizedBox(
@@ -394,9 +395,11 @@ class _MyHomePageState extends State<HesapScreen> {
                       ),
 
                       _buildPasswordTF(),
+
                       _buildForgotPasswordBtn(),
-                      _buildRememberMeCheckbox(),
+                      // _buildRememberMeCheckbox(),
                       _buildLoginBtn(),
+
                       _buildSignupBtn(),
                       _buildGoogleBtn(),
                       _buildFacebookBtn()

@@ -1,7 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter1/screens/constants.dart';
+import 'package:flutter1/screens/kutucukolustur.dart';
 
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
@@ -15,6 +17,7 @@ class LoginScreen extends StatefulWidget {
 
 class _MyHomePageState extends State<LoginScreen> {
   bool _rememberMe = false;
+  final _firestore = FirebaseFirestore.instance;
 
   Widget _buildEvimBtn() {
     return Container(
@@ -231,6 +234,8 @@ class _MyHomePageState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
+    CollectionReference moviesRef = _firestore.collection('Products');
+    var babaRef = moviesRef.doc('123456789');
     return Scaffold(
       appBar: AppBar(
         backgroundColor: butonrengi2,
@@ -307,6 +312,19 @@ class _MyHomePageState extends State<LoginScreen> {
                       _buildAlisBtn(),
                       _buildBildirimBtn(),
                       _buildAyarlarBtn(),
+                      // SignInButton(
+                      //     text: 'Get QuerySnapshot',
+                      //     text1: '',
+                      //     text2: '',
+                      //     onPressed: () async {
+                      //       var response = await babaRef.get();
+                      //
+                      //       /// Document Snapshot
+                      //       var map = response;
+                      //       print(map['shelflife']);
+                      //       print(map['name']);
+                      //
+                      //     })
                     ],
                   ),
                 ),

@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../model/product.dart';
+
 var butonrengi = Color(0x791074DE);
 var yazirengi = Color(0xF0FFFFFF);
-var butonrengi2= Color(0xFF083663);
-var butonrengi3= Color(0xFF487BEA);
+var butonrengi2 = Color(0xFF083663);
+var butonrengi3 = Color(0xFF487BEA);
+
+List userProducts = [];
 
 final kHintTextStyle = TextStyle(
   color: Colors.white54,
