@@ -157,7 +157,7 @@ class _MyHomePageState extends State<ListScreen> {
   void addItem(index) {
     setState(() {
       // araeleman = List.from(urun_list[index]);
-      araeleman_list.add(urun_list[index]);
+      userAlis.add(urun_list[index]);
     });
   }
 
@@ -217,8 +217,6 @@ class _MyHomePageState extends State<ListScreen> {
                 children: <Widget>[
                   _buildaraTF(),
                   _buildheadTF(),
-                  SignInButton(text: 'Geri Dön', text1: '', text2: '', onPressed: () {
-                  Navigator.pushNamed(context, '/login');}),
                   Flexible(
                     flex: 1,
                     child: ListView.builder(

@@ -8,6 +8,8 @@ var butonrengi2 = Color(0xFF083663);
 var butonrengi3 = Color(0xFF487BEA);
 
 List userProducts = [];
+List userAlis=[];
+List Countlist=[];
 
 final kHintTextStyle = TextStyle(
   color: Colors.white54,

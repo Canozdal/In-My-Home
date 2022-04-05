@@ -386,19 +386,19 @@ class Product {
     enterance = "${_exp.day}.${_exp.month}.${_exp.year}";
     this.id = 1;
     int check = 0;
-    if (updatedList.length > 0) {
-      while (check == 0) {
-        check = 1;
-        for (int i = 0; i < updatedList.length; i++) {
-          if (updatedList[i]['name'] == this.productname) {
-            /*if (updatedList[i].id == this.id){
-              this.id ++;
-              check = 0;
-            }*/
-          }
-        }
-      }
-    }
+    // if (updatedList.length > 0) {
+    //   while (check == 0) {
+    //     check = 1;
+    //     for (int i = 0; i < updatedList.length; i++) {
+    //       if (updatedList[i]['name'] == this.productname) {
+    //         /*if (updatedList[i].id == this.id){
+    //           this.id ++;
+    //           check = 0;
+    //         }*/
+    //       }
+    //     }
+    //   }
+    // }
     this._exp = _exp.add(Duration(days: this.shelfLife, hours: 0, minutes: 0));
     expirationDate = "${_exp.day}.${_exp.month}.${_exp.year}";
     updatedList.add(this);

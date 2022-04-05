@@ -137,13 +137,13 @@ class _MyHomePageState extends State<ShoppingScreen> {
 
   void deleteItem(index) {
     setState(() {
-      araeleman_list.removeAt(index);
+      userAlis.removeAt(index);
     });
   }
 
   void undoDeletion(index, item) {
     setState(() {
-      araeleman_list.insert(index, item);
+      userAlis.insert(index, item);
     });
   }
 
@@ -198,12 +198,12 @@ class _MyHomePageState extends State<ShoppingScreen> {
                   _buildheadTF(),
                   Flexible(flex: 1,
                     child: ListView.builder(
-                      itemCount: araeleman_list.length,
-                      itemBuilder: (context, index) {
+                      itemCount: userAlis.length,
+                      itemBuilder: (context, index) {Countlist.add(userAlis[index].count);
                         return Dismissible(
                             background: stackBehindDismiss(),
                             secondaryBackground: secondarystackBehindDismiss(),
-                            key: ObjectKey(araeleman_list[index]),
+                            key: ObjectKey(userAlis[index]),
                             child: Container(
                               padding: EdgeInsets.all(5.0),
                               child: Row(
@@ -219,12 +219,13 @@ class _MyHomePageState extends State<ShoppingScreen> {
                                         ),
                                         minimumSize: Size(250, 60),
                                       ),
-                                      child: Text(araeleman_list[index].productname)),
-                                  _itemCount!=0?
-                                  new  IconButton(icon: new Icon(Icons.remove),onPressed: ()=>setState(()=>_itemCount--),):
+                                      child: Text(userAlis[index].productname)),
+
+                                  Countlist[index]!=0?
+                                  new  IconButton(icon: new Icon(Icons.remove),onPressed: ()=>setState(()=>Countlist[index]--),):
                                   new Container(),
-                                  new Text(_itemCount.toString()),
-                                  new IconButton(icon: new Icon(Icons.add),onPressed: ()=>setState(()=>_itemCount++)),
+                                  new Text(Countlist[index].toString()),
+                                  new IconButton(icon: new Icon(Icons.add),onPressed: ()=>setState(()=>Countlist[index]++)),
                                   // new Center(child: if (_itemCount==0){deleteItem(index),})
                                   // if (_itemCount == 0)
                                   //   araeleman_list.removeAt(index),
