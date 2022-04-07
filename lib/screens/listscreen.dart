@@ -259,13 +259,13 @@ class _MyHomePageState extends State<ListScreen> {
                                 context: context,
                                 builder: (BuildContext context) {
                                   return AlertDialog(
-                                    title: const Text("Confirm"),
+                                    title: const Text("Onay"),
                                     content: direction ==
                                         DismissDirection.startToEnd
                                         ? Text(
                                         "Ürünü favorilere eklemek ister misiniz?")
                                         : Text(
-                                        "Ürünü silmek istediğinizden emin misiniz??"),
+                                        "Ürünü silip alışveriş listesine eklemek istediğinizden emin misiniz?"),
                                     actions: <Widget>[
                                       FlatButton(
                                         onPressed: () =>
@@ -273,12 +273,12 @@ class _MyHomePageState extends State<ListScreen> {
                                         child: direction ==
                                             DismissDirection.startToEnd
                                             ? Text("FAVORITE")
-                                            : Text("DELETE"),
+                                            : Text("Sil ve Ekle"),
                                       ),
                                       FlatButton(
                                         onPressed: () =>
                                             Navigator.of(context).pop(false),
-                                        child: const Text("CANCEL"),
+                                        child: const Text("İptal et"),
                                       ),
                                     ],
                                   );
