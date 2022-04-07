@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter1/screens/constants.dart';
 import 'package:flutter1/screens/kutucukolustur.dart';
 import 'package:intl/intl.dart';
 
@@ -39,7 +40,8 @@ class _MyHomePageState extends State<TarihScreen> {
       setState(() {
         selectedDate = picked;
         formattedDate = DateFormat('dd.MM.yyyy').format(selectedDate);
-        araeleman_list4[ind_val].expirationDate=formattedDate;
+        userProducts[ind_val].expirationDate=formattedDate;
+        Navigator.pushNamed(context, '/login');
       });
     }
   }
@@ -286,15 +288,15 @@ class _MyHomePageState extends State<TarihScreen> {
                       SizedBox(
                         height: 30.0,
                       ),
-                      SignInButton(
-                          text: 'Değiştir',
-                          text1: '',
-                          text2: '',
-                          onPressed: () {var route = new MaterialPageRoute(
-                            builder: (BuildContext context) =>
-                            new ListScreen(value: araeleman_list4[0].expirationDate, urunlist: araeleman_list4, araeleman: [],),
-                          );
-                          Navigator.pushNamed(context, '/first');}),
+                      // SignInButton(
+                      //     text: 'Değiştir',
+                      //     text1: '',
+                      //     text2: '',
+                      //     onPressed: () {var route = new MaterialPageRoute(
+                      //       builder: (BuildContext context) =>
+                      //       new ListScreen(value: araeleman_list4[0].expirationDate, urunlist: araeleman_list4, araeleman: [],),
+                      //     );
+                      //     Navigator.pushNamed(context, '/first');}),
                     ],
                   ),
                 ),

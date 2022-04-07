@@ -106,6 +106,7 @@ class _MyHomePageState extends State<TaramaScreen> {
       for (var i = 0; i < _memories.length; i++) {
         if (_memories[i]['barcode'] == barcode) {
           print(_memories[i]['name']);
+          isimtut=_memories[i]['name'];
           print(_memories[i]['barcode']);
           var product1 = Product(
               productname: _memories[i]['name'],
@@ -136,7 +137,7 @@ class _MyHomePageState extends State<TaramaScreen> {
         ),
         color: butonrengi2,
         child: Text(
-          'Barcode',
+          'Barkod Tarat',
           style: TextStyle(
             color: yazirengi,
             letterSpacing: 1.5,
@@ -342,24 +343,27 @@ class _MyHomePageState extends State<TaramaScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       _buildBarcodeBtn(),
-                      _buildQrBtn(),
-                      _buildStreamBtn(),
-                      SignInButton(
-                        text: 'Gönder',
-                        text1: '',
-                        text2: '',
-                        onPressed: () {
-                          var route = new MaterialPageRoute(
-                            builder: (BuildContext context) => new ListScreen(
-                              urunlist: userProducts,
-                              araeleman: [],
-                            ),
-                          );
-                          Navigator.of(context).push(route);
-                        },
-                      ),
-                      Text('Scan result : $_scanBarcode\n',
-                          style: TextStyle(fontSize: 20))
+                      // _buildQrBtn(),
+                      // _buildStreamBtn(),
+                      // SignInButton(
+                      //   text: 'Gönder',
+                      //   text1: '',
+                      //   text2: '',
+                      //   onPressed: () {
+                      //     var route = new MaterialPageRoute(
+                      //       builder: (BuildContext context) => new ListScreen(
+                      //         urunlist: userProducts,
+                      //         araeleman: [],
+                      //       ),
+                      //     );
+                      //     Navigator.of(context).push(route);
+                      //   },
+                      // ),
+                      // Text('Scan result : $_scanBarcode\n',
+                      //     style: TextStyle(fontSize: 20)),
+                      SignInButton(text: 'Eklenen Ürün', text1: '=>', text2: isimtut, onPressed: (){}),
+                      // Text(isimtut,
+                      //     style: TextStyle(fontSize: 20))
                     ],
                   ),
                 ),

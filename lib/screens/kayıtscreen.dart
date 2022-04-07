@@ -39,7 +39,7 @@ class _MyHomePageState extends State<KayitScreen> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          'Email',
+          'E-mail',
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
@@ -66,7 +66,7 @@ class _MyHomePageState extends State<KayitScreen> {
                   Icons.email,
                   color: yazirengi,
                 ),
-                hintText: 'Email veya kullanıcı adı giriniz',
+                hintText: 'E-mail veya kullanıcı adı giriniz',
                 hintStyle: TextStyle(
                   color: yazirengi,
                 ),

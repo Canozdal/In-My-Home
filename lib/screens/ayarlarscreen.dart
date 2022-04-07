@@ -234,7 +234,7 @@ class _LoginScreenState extends State<AyarlarScreen> {
                       _buildHesapBtn(),
                       _buildDilBtn(),
                       _buildGuvenlikBtn(),
-                      _buildOturumBtn(),
+                      // _buildOturumBtn(),
                     ],
                   ),
                 ),

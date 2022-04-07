@@ -229,15 +229,15 @@ class _MyHomePageState extends State<ListScreen> {
                             child: Container(
                               padding: EdgeInsets.all(5.0),
                               child: SignInButton(
-                                text: urun_list[index].productname,
-                                text1: urun_list[index].enterance,
-                                text2: urun_list[index].expirationDate,
+                                text: userProducts[index].productname,
+                                text1: userProducts[index].enterance,
+                                text2: userProducts[index].expirationDate,
                                 onPressed: () {
                                   var route = new MaterialPageRoute(
                                     builder: (BuildContext context) =>
                                     new TarihScreen(
                                       value: index,
-                                      araeleman4: urun_list,
+                                      araeleman4: userProducts,
                                     ),
                                   );
                                   Navigator.of(context).push(route);

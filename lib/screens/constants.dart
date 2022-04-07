@@ -10,6 +10,7 @@ var butonrengi3 = Color(0xFF487BEA);
 List userProducts = [];
 List userAlis=[];
 List Countlist=[];
+String isimtut='Bilinmiyor';
 
 final kHintTextStyle = TextStyle(
   color: Colors.white54,

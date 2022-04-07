@@ -45,7 +45,7 @@ class _ProfilePageState extends State<ProfilePage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          'İsim',
+          'Ad',
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
@@ -69,7 +69,7 @@ class _ProfilePageState extends State<ProfilePage> {
       children: <Widget>[
         SizedBox(height: 10.0),
         Text(
-          'E mail',
+          'E-mail',
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
@@ -104,11 +104,11 @@ class _ProfilePageState extends State<ProfilePage> {
         color: butonrengi2,
         child: _currentUser.emailVerified
             ?Text(
-          'E mail Doğrulandı',
+          'E-mail Doğrulandı',
           style: Theme.of(context).textTheme.bodyText1?.copyWith(color: Colors.green),
         ) :
         Text(
-          'E mail Doğrulanmadı',
+          'E-mail Doğrulanmadı',
           style: Theme.of(context).textTheme.bodyText1?.copyWith(color: Colors.red),
         ),
       ),
@@ -141,7 +141,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 ),
                 minimumSize: Size(250, 60),
               ),
-              child: Text('Email Doğrula')),
+              child: Text('E-mail Doğrula')),
           IconButton(
             icon: Icon(Icons.refresh),
             onPressed: () async{
@@ -234,7 +234,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),),
             ClipRRect(
-              borderRadius: BorderRadius.circular(30.0),
+              borderRadius: BorderRadius.circular(0.0),
               child: Image.asset(
                 'assets/logos/company.png',
                 width: 60.0,

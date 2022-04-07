@@ -279,7 +279,7 @@ class _MyHomePageState extends State<EvimScreen> {
                       _buildEvBakimBtn(),
                       _buildIlacBtn(),
                       _buildDigerleriBtn(),
-                      _buildGeridonBtn(),
+                      // _buildGeridonBtn(),
                       // Text("${selectedDate.toLocal()}".split(' ')[0]),
                       // SizedBox(height: 20.0,),
                       // RaisedButton(

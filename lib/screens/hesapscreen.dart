@@ -38,7 +38,7 @@ class _MyHomePageState extends State<HesapScreen> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          'Email',
+          'E-mail',
           style: TextStyle(color: butonrengi2),
         ),
         SizedBox(height: 10.0),
@@ -66,7 +66,7 @@ class _MyHomePageState extends State<HesapScreen> {
                   Icons.email,
                   color: yazirengi,
                 ),
-                hintText: 'Email veya kullanıcı adı giriniz',
+                hintText: 'E-mail giriniz',
                 hintStyle: TextStyle(
                   color: yazirengi,
                 ),
@@ -193,31 +193,23 @@ class _MyHomePageState extends State<HesapScreen> {
               _isProcessing = false;
             });
           }
-          showAlertDialog(BuildContext context) {
-
-            // set up the button
-            Widget okButton = TextButton(
-              child: Text("OK"),
-              onPressed: () { },
-            );
-
-            // set up the AlertDialog
-            AlertDialog alert = AlertDialog(
-              title: Text("My title"),
-              content: Text("This is my message."),
-              actions: [
-                okButton,
-              ],
-            );
-
-            // show the dialog
-            showDialog(
-              context: context,
-              builder: (BuildContext context) {
-                return alert;
-              },
-            );
-          }
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return AlertDialog(
+                title: new Text("Hata!"),
+                content: new Text("E-mail veya şifre yanlış!"),
+                actions: <Widget>[
+                  new FlatButton(
+                    child: new Text("OK"),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                  ),
+                ],
+              );
+            },
+          );
 
           if (_isProcessing) Navigator.pushNamed(context, '/login');
         },
@@ -424,10 +416,12 @@ class _MyHomePageState extends State<HesapScreen> {
                       _buildForgotPasswordBtn(),
                       // _buildRememberMeCheckbox(),
                       _buildLoginBtn(),
-
+                      SizedBox(
+                        height: 30.0,
+                      ),
                       _buildSignupBtn(),
-                      _buildGoogleBtn(),
-                      _buildFacebookBtn()
+                      // _buildGoogleBtn(),
+                      // _buildFacebookBtn()
                       //_buildSignInWithText(),
                       //_buildSocialBtnRow2()
                     ],
